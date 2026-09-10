@@ -1,0 +1,306 @@
+{
+    
+  "meta": {
+    "title": "Bastione — Lounge und Restaurant | Riva del Garda",
+    "description": "Bastione Lounge und Restaurant über dem Gardasee in Riva del Garda, Trentino."
+  },
+
+  "navigation": {
+    "view": "Aussicht",
+    "experience": "Erlebnis",
+    "cuisine": "Küche",
+    "menu": "Menü",
+    "place": "Der Ort",
+    "moments": "Momente",
+    "events": "Events",
+    "visit": "Besuch"
+  },
+  
+  "hero": {
+    "titlePrefix": "Ein Tisch",
+    "titleLake": "über dem",
+    "titleGarda": "Gardasee",
+    "eyebrow": "Lounge und Restaurant",
+    "title": "Ein Tisch über dem Gardasee.",
+    "location": "Limone sul Garda · Gardasee · Italien",
+    "description": "Ein Ort, an dem italienische Küche, Gastfreundschaft und die Schönheit des Gardasees zusammenkommen.",
+    "primaryCta": "Tisch reservieren",
+    "secondaryCta": "Al Buongusto entdecken",
+    "scroll": "Entdecken"
+  },
+  
+  "view": {
+    "eyebrow": "Die Atmosphäre",
+    "explore": "Entdecken",
+    "title": "Zwei Seiten von Al Buongusto",
+    "description": "Vom sonnigen Garten unter Zitronenbäumen bis zu intimen Abenden am Tisch – entdecken Sie die Atmosphäre der Hostaria Al Buongusto.",
+    "lakeCaption": "Der Garten · Limone sul Garda",
+    "lakeDetail": "Zwischen Zitronenbäumen und Steinterrassen",
+    "cityCaption": "Der Abend · Al Buongusto",
+    "cityDetail": "Dinner · Wein · Limone sul Garda",
+    "locationLabel": "Wo wir sind",
+    "locationText": "Im Herzen von Limone sul Garda, umgeben vom Charakter und der Schönheit des Gardasees."
+  },
+
+  "experience": {
+    "eyebrow": "Ein Ort mit Geschichte",
+    "title": "Von den Zitronengärten von Limone zum Al Buongusto",
+    "text": "Die Hostaria Al Buongusto befindet sich in den Mauern einer alten Limonaia – der traditionellen Zitronengärten, die die Identität von Limone sul Garda geprägt haben. In die Terrassen zwischen See und Berg gebaut, schützten diese historischen Gärten die Zitrusbäume im Winter und machten Limone zu einem der charakteristischsten Zitronenanbauorte Europas. Heute erzählen die alten Steinmauern, Terrassen und das umliegende Dorf diese Geschichte auf neue Weise weiter: durch Küche, Wein und Gastfreundschaft.",
+    "year": "1720",
+    "nodes": {
+      "way01": {
+        "title": "Die Reise beginnt"
+      },
+      "way02": {
+        "title": "Auf dem Weg nach Limone"
+      },
+      "way03": {
+        "title": "Ankunft in Limone"
+      },
+      "way04": {
+        "title": "Wir erreichen den Ort"
+      },
+      "way05": {
+        "title": "In der Altstadt"
+      },
+      "way06": {
+        "title": "Fast geschafft"
+      },
+      "way07": {
+        "title": "Via Fontana"
+      },
+      "way08": {
+        "title": "Nur noch wenige Schritte"
+      },
+      "way09": {
+        "title": "Sie sind angekommen"
+      },
+      "way10": {
+        "title": "Hostaria Al Buongusto"
+      }
+    }
+  },
+
+  "moments": {
+    "eyebrow": "Momente unserer Gäste",
+    "title": "Erinnerungen im Al Buongusto",
+    "description": "Ein Abendessen, ein Toast, ein Lächeln, ein Selfie – Momente, die unsere Gäste mit nach Hause nehmen.",
+
+    "cards": {
+      "01": {
+        "label": "Der erste Abend in Limone",
+        "meta": "Im Al Buongusto"
+      },
+      "02": {
+        "label": "Ein Tisch zum Erinnern",
+        "meta": "Zeit zum Abendessen"
+      },
+      "03": {
+        "label": "Ein Toast aus Limone",
+        "meta": "Mit Freunden am Tisch"
+      },
+      "04": {
+        "label": "Ein kleiner Geschmack Italiens",
+        "meta": "Von der Tafel"
+      },
+      "05": {
+        "label": "Nur wir zwei",
+        "meta": "Ein Abend im Al Buongusto"
+      },
+      "06": {
+        "label": "Noch ein Toast",
+        "meta": "Mit Freunden"
+      },
+      "07": {
+        "label": "Eine Nacht in Limone",
+        "meta": "Nach dem Abendessen"
+      },
+      "08": {
+        "label": "Eine Erinnerung zu zweit",
+        "meta": "Al Buongusto"
+      },
+      "09": {
+        "label": "Wir waren hier",
+        "meta": "Limone sul Garda"
+      }
+    },
+
+    "note": "Halte den Moment fest.",
+    "footer": "Jeder Tisch hat eine Geschichte. Jeder Besuch hinterlässt eine Erinnerung."
+  },
+
+  "cuisine": {
+    "eyebrow": "Die Küche",
+    "title": "Italienische Küche, geprägt vom Gardasee",
+    "description": "Bei Hostaria Al Buongusto trifft italienische Küche auf die Aromen des Gardasees und des Mittelmeers. Die Speisekarte verbindet Seefisch und Meeresfrüchte, hausgemachte Pasta, sorgfältig ausgewähltes Fleisch und saisonale Zutaten. Von Süßwasserfisch und gefüllter Pasta bis hin zu piemontesischem Fassona-Rind und feinen Desserts wird jedes Gericht mit einer zeitgemäßen Note interpretiert, ohne den Charakter der italienischen Küche zu verlieren. Eine Tafel, an der man sich Zeit nimmt, eine Flasche Wein teilt und mit jedem Gang etwas Neues entdeckt.",
+    "panels": {
+      "lake": {
+        "title": "See & Meer",
+        "text": "Seefisch, Meeresfrüchte und die frischen Aromen des Gardasees."
+      },
+      "mountain": {
+        "title": "Pasta & Ravioli",
+        "text": "Hausgemachte Pasta, gefüllte Fagottini und Saucen mit italienischer Inspiration."
+      },
+      "mediterranean": {
+        "title": "Fleisch & Grill",
+        "text": "Fassona-Tatar, Tagliata, Steaks und sorgfältig zubereitete Fleischgerichte."
+      },
+      "cellar": {
+        "title": "Wein & Dessert",
+        "text": "Ausgewählte Weine, Tiramisù und feine Desserts zum Abschluss."
+      }
+    },
+    "dishes": {
+      "tunatartare": {
+        "name": "Thunfisch-Tatar",
+        "description": "Roher Thunfisch mit Piquillo-Paprika, Timut-Pfeffer, Limette und cremiger Mozzarella."
+      },
+      "lagoAffumicato": {
+        "name": "Geräucherter Saibling",
+        "description": "Geräucherter Gardasee-Saibling mit Mandarine."
+      },
+      "saporeDiLago": {
+        "name": "Spaghetti mit Seefisch-Ragout",
+        "description": "Spaghetti alla chitarra mit Seefisch-Ragout, milder Knoblauchsauce und Basilikum."
+      },
+      "ilNostroMare": {
+        "name": "Fagottini mit Zackenbarsch & Garnelen",
+        "description": "Hausgemachte Fagottini mit Zackenbarsch und Garnelen, serviert mit ihrer Bisque."
+      },
+      "cozzePatateBaccala": {
+        "name": "Spaghetti mit Thunfisch & Bottarga",
+        "description": "Spaghetti mit Knoblauch, Olivenöl, Chili, frischem Thunfisch, Kirschtomaten und Thunfisch-Bottarga."
+      },
+      "ilPolpoENero": {
+        "name": "Fisch-Involtini",
+        "description": "Fisch-Involtini mit knuspriger Kruste und mediterranen Aromen."
+      },
+      "duettoTrentino": {
+        "name": "Fassona-Rindertatar",
+        "description": "Tatar vom piemontesischen Fassona-Rind mit Trüffel, Grana und Balsamico-Perlen."
+      },
+      "terraDEstate": {
+        "name": "Tagliata vom Rind",
+        "description": "Geschnittenes Rindfleisch mit Rucola, Grana und Rosmarinkartoffeln."
+      },
+      "blackAngus": {
+        "name": "Schweine-Tomahawk",
+        "description": "300 g Schweine-Tomahawk mit knuspriger Panko-Kruste, Kartoffelsalat, Tropea-Zwiebel und Alpenjoghurt."
+      },
+      "reginaMargherita": {
+        "name": "Tagliatelle mit vier Tomaten",
+        "description": "Tagliatelle mit vier Tomatensorten, Burrata-Stracciatella und Basilikumpesto."
+      },
+      "tonnetto": {
+        "name": "Forelle mit Zucchini",
+        "description": "Forelle mit Zucchini alla scapece."
+      },
+      "diavola": {
+        "name": "Die Frische von Limone",
+        "description": "Ein feines Zitronendessert, inspiriert von den Aromen und der Frische von Limone sul Garda."
+      }
+    }
+  },
+
+  "menu": {
+    "eyebrow": "Unsere Menüfavoriten",
+    "title": "Den Moment genießen",
+    "cta": "Menü entdecken",
+    "note": "Das Menü wechselt mit den Jahreszeiten und je nach Verfügbarkeit der Zutaten.",
+    "items": {
+      "01": {
+        "name": "Fassona-Rindertatar",
+        "description": "Tatar vom piemontesischen Fassona-Rind mit Trüffel, Grana und Balsamico-Perlen.",
+        "price": "~€22"
+      },
+      "02": {
+        "name": "Fagottini mit Zackenbarsch & Garnelen",
+        "description": "Hausgemachte Fagottini mit Zackenbarsch und Garnelen, serviert mit ihrer Bisque.",
+        "price": "~€20"
+      },
+      "03": {
+        "name": "Spaghetti mit frischem Thunfisch & Bottarga",
+        "description": "Felicetti-Spaghetti mit Knoblauch, Olivenöl, Chili, Kirschtomaten in Meerwasser, frischem Thunfisch und Thunfisch-Bottarga.",
+        "price": "~€18"
+      },
+      "04": {
+        "name": "Tagliata di Manzo",
+        "description": "Aufgeschnittenes Rindfleisch mit Rucola, Grana und Rosmarinkartoffeln.",
+        "price": "~€26"
+      },
+      "05": {
+        "name": "Die Frische von Limone",
+        "description": "Das hausgemachte Zitronendessert, inspiriert von der Frische von Limone sul Garda.",
+        "price": "~€9"
+      }
+    }
+  },
+
+  "place": {
+    "eyebrow": "Der Ort",
+    "title": "Ein Geschmack von Limone",
+    "description": "Ein einladender Ort im Herzen von Limone sul Garda, wo italienische Küche auf die zeitlose Atmosphäre des Sees trifft.",
+    "cta": "Den Ort entdecken"
+  },
+
+  "events": {
+    "eyebrow": "Events",
+    "title": "Machen Sie es zu Ihrem Moment",
+    "description": "Romantische Dinner, Feiern und besondere Momente im Herzen von Limone sul Garda.",
+    "cta": "Events entdecken",
+    "types": {
+      "privateDinners": "Private Dinner",
+      "celebrations": "Feiern",
+      "aperitivo": "Besonderer Aperitivo"
+    }
+  },
+
+  "visit": {
+    "eyebrow": "Besuchen Sie Al Buongusto",
+    "title": "Kommen Sie nach Limone",
+    "description": "Sie finden uns im Herzen von Limone sul Garda – machen Sie Ihren Besuch zu einem Teil des Gardasee-Erlebnisses.",
+    "locationLabel": "Wo wir sind",
+    "address": "Via Fontana 2 · 25010 Limone sul Garda BS · Italien",
+    "directions": "Route anzeigen"
+  },
+
+  "footer": {
+    "brandLabel": "HOSTARIA AL BUONGUSTO",
+    "brandTitle": "HOSTARIA",
+    "subtitle": "al Buongusto",
+    "phone": "+39 0365 388123",
+    "website": "albuongusto.com",
+    "followUs": "Folgen Sie uns",
+    "legal": "Via Fontana 2 · 25010 Limone sul Garda BS · Italien. Sie finden uns im Herzen von Limone – ideal, um die historische Altstadt, die alten Zitronenhaine und die Wege am See zu entdecken. Von hier aus lässt sich der Gardasee zu Fuß, mit dem Fahrrad oder per Boot erkunden.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "google": "Google Maps",
+    "tripadvisor": "Tripadvisor",
+    "copyright": "© 2026",
+    "credit": "Mit Liebe erstellt von",
+    "author": "daaart.in.ua"
+  },
+
+  "reservation": {
+    "eyebrow": "Reservierungen",
+    "title": "Tisch reservieren",
+    "description": "Wählen Sie die für Sie passende Option und kontaktieren Sie Hostaria Al Buongusto direkt.",
+    "close": "Schließen",
+    "phone": {
+      "title": "Telefonisch reservieren",
+      "description": "Rufen Sie uns direkt an, um Ihren Tisch zu reservieren."
+    },
+    "location": {
+      "title": "So finden Sie uns",
+      "description": "Öffnen Sie unseren Standort in Google Maps und lassen Sie sich den Weg anzeigen.",
+      "label": "Via Fontana 2 · Limone sul Garda"
+    },
+    "website": {
+      "title": "Unsere Website besuchen",
+      "description": "Entdecken Sie Hostaria Al Buongusto und planen Sie Ihren Besuch."
+    },
+    "note": "Wir empfehlen eine frühzeitige Reservierung, besonders am Abend und zu besonderen Anlässen."
+  }
+    
+}

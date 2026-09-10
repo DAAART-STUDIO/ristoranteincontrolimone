@@ -1,0 +1,207 @@
+/**
+ * tokens.css — Bastione Design System
+ *
+ * Editorial hospitality / Lake Garda / contemporary Italian restaurant.
+ * All primitive design values live here.
+ */
+
+ :root {
+  /* ─────────────────────────────────────────────────────────────
+     COLOR
+     ──────────────────────────────────────────────────────────── */
+
+  --color-bg: #f3f1ec;
+  --color-surface: #faf9f6;
+  --color-surface-raised: #e9e6de;
+  --color-surface-dark: #1b1d1b;
+
+  --color-ink: #20221f;
+  --color-ink-soft: #555852;
+  --color-ink-faint: #777a73;
+
+  --color-line: rgba(32, 34, 31, 0.14);
+  --color-line-strong: rgba(32, 34, 31, 0.24);
+
+  --color-accent: #7d8068;
+  --color-accent-dark: #656851;
+
+  --color-white: #ffffff;
+
+  --moments-ink: #20221f;
+  --moments-ink-soft: #555852;
+  --moments-ink-faint: #777a73;
+
+  /* Dark theme */
+  --dark-bg: #171916;
+  --dark-surface: #20231f;
+  --dark-surface-raised: #292c27;
+
+  --dark-ink: #f1eee7;
+  --dark-ink-soft: #bdbcb2;
+  --dark-ink-faint: #898b83;
+
+  --dark-line: rgba(241, 238, 231, 0.15);
+  --dark-line-strong: rgba(241, 238, 231, 0.25);
+
+  --dark-accent: #a9aa8f;
+
+  /* Footer duotone — fixed brand panel colors, independent of theme. */
+  --color-footer-stone: #d8c7a5;
+  --color-footer-charcoal: #1d1e1a;
+  --color-footer-stone-ink-soft: rgba(29, 30, 26, 0.68);
+  --color-footer-charcoal-ink: #d8c7a5;
+
+  --color-footer-charcoal-ink-soft: rgba(216, 199, 165, 0.68);
+
+  /* ─────────────────────────────────────────────────────────────
+   SHADOW
+   ──────────────────────────────────────────────────────────── */
+  --shadow-sm: 0 3px 10px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.14);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.20);
+
+
+  /* ─────────────────────────────────────────────────────────────
+     TYPOGRAPHY
+     ──────────────────────────────────────────────────────────── */
+
+  --font-display: Georgia, 'Times New Roman', serif;
+
+  --font-sans:
+    Inter,
+    ui-sans-serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+
+  --fs-hero:    clamp(2.75rem, 5vw, 6.25rem);
+  --fs-display: clamp(2.25rem, 3.4vw, 4.25rem);
+  --fs-h2:      clamp(1.9rem, 2.6vw, 3.25rem);
+  --fs-h3:      clamp(1.4rem, 2vw, 2rem);
+
+  --fs-body: 1rem;
+  --fs-body-large: clamp(1.1rem, 1.2vw, 1.35rem);
+
+  --fs-small: 0.82rem;
+  --fs-label: 0.68rem;
+
+  --lh-tight: 0.98;
+  --lh-display: 1.05;
+  --lh-normal: 1.6;
+
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.12em;
+  --tracking-wider: 0.2em;
+
+
+  /* ─────────────────────────────────────────────────────────────
+     SPACING
+     ──────────────────────────────────────────────────────────── */
+
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 2.5rem;
+  --space-6: 3rem;
+  --space-8: 4rem;
+  --space-10: 5rem;
+  --space-12: 6rem;
+  --space-16: 8rem;
+  --space-20: 10rem;
+  --space-24: 12rem;
+
+  --space-section:       clamp(3.5rem, 6vw, 6.5rem);
+  --space-section-large: clamp(4.5rem, 8vw, 9rem);
+
+
+  /* ─────────────────────────────────────────────────────────────
+   GLASS SURFACE (той самий рецепт, що в .site-header::before)
+   ──────────────────────────────────────────────────────────── */
+  --glass-bg: color-mix(in srgb, var(--color-bg) 85%, transparent);
+  --glass-blur: 16px;
+
+
+  /* ─────────────────────────────────────────────────────────────
+     LAYOUT
+     ──────────────────────────────────────────────────────────── */
+
+  --container-max: 1440px;
+  --container-pad: clamp(1.25rem, 4vw, 5rem);
+
+  --header-height: 78px;
+
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;
+
+
+  /* ─────────────────────────────────────────────────────────────
+     MOTION
+     ──────────────────────────────────────────────────────────── */
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --dur-fast: 180ms;
+  --dur-med: 400ms;
+  --dur-slow: 800ms;
+
+
+  /* ─────────────────────────────────────────────────────────────
+     Z-INDEX
+     ──────────────────────────────────────────────────────────── */
+
+  --z-header: 100;
+  --z-menu: 200;
+  --z-overlay: 300;
+}
+
+
+/* ─────────────────────────────────────────────────────────────
+   DARK THEME
+   ──────────────────────────────────────────────────────────── */
+
+[data-theme='dark'] {
+  --color-bg: var(--dark-bg);
+  --color-surface: var(--dark-surface);
+  --color-surface-raised: var(--dark-surface-raised);
+
+  --color-ink: var(--dark-ink);
+  --color-ink-soft: var(--dark-ink-soft);
+  --color-ink-faint: var(--dark-ink-faint);
+
+  --color-line: var(--dark-line);
+  --color-line-strong: var(--dark-line-strong);
+
+  --color-accent: var(--dark-accent);
+  --color-accent-dark: #8f9179;
+  --color-footer-stone: #0e0c07;
+  --color-footer-charcoal: #11120f;
+
+  --shadow-sm: 0 3px 10px rgba(0, 0, 0, 0.30);
+  --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.42);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.55);
+
+  /* Text & icons */
+  --color-footer-stone-ink: #f1eee7;
+  --color-footer-charcoal-ink: #d8c7a5;
+  --color-footer-stone-ink-soft: rgba(241, 238, 231, 0.68);
+  --color-footer-charcoal-ink-soft: rgba(216, 199, 165, 0.68);
+}
+
+
+/* ─────────────────────────────────────────────────────────────
+   REDUCED MOTION
+   ──────────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur-med: 0ms;
+    --dur-slow: 0ms;
+  }
+}

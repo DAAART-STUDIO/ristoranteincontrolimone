@@ -1,0 +1,304 @@
+{
+  
+  "meta": {
+    "title": "Bastione — Lounge e Ristorante | Riva del Garda",
+    "description": "Bastione Lounge e Ristorante sopra il Lago di Garda a Riva del Garda, Trentino."
+  },
+
+  "navigation": {
+    "view": "Vista",
+    "experience": "Esperienza",
+    "cuisine": "Cucina",
+    "menu": "Menu",
+    "place": "Il luogo",
+    "moments": "Momenti",
+    "events": "Eventi",
+    "visit": "Visita"
+  },
+  
+  "hero": {
+    "titlePrefix": "Un tavolo sopra",
+    "titleLake": "il Lago",
+    "titleGarda": "di Garda",
+    "eyebrow": "Lounge e Ristorante",
+    "title": "Un tavolo sopra il Lago di Garda.",
+    "location": "Limone sul Garda · Lago di Garda · Italia",
+    "description": "Un luogo dove la cucina italiana, l'ospitalità e la bellezza del Lago di Garda si incontrano.",
+    "primaryCta": "Prenota un tavolo",
+    "secondaryCta": "Scopri Al Buongusto",
+    "scroll": "Scopri"
+  },
+  
+  "view": {
+    "eyebrow": "L'Atmosfera",
+    "explore": "Scopri",
+    "title": "Due anime di Al Buongusto",
+    "description": "Dal giardino immerso nel verde dei limoni alle serate intime a tavola — scopri l'atmosfera di Hostaria Al Buongusto.",
+    "lakeCaption": "Il Giardino · Limone sul Garda",
+    "lakeDetail": "Tra limoni e terrazze in pietra",
+    "cityCaption": "La Sera · Al Buongusto",
+    "cityDetail": "Cena · Vino · Limone sul Garda",
+    "locationLabel": "Dove siamo",
+    "locationText": "Nel cuore di Limone sul Garda, tra il carattere e la bellezza del Lago di Garda."
+  },
+
+  "experience": {
+    "eyebrow": "Un luogo con radici profonde",
+    "title": "Dalle antiche limonaie di Limone ad Al Buongusto",
+    "text": "Hostaria Al Buongusto nasce tra le mura di un'antica limonaia — i tradizionali giardini di limoni che hanno plasmato l'identità di Limone sul Garda. Costruite sui terrazzamenti tra il lago e la montagna, queste storiche limonaie proteggevano gli agrumi durante l'inverno e hanno reso Limone uno dei borghi di coltivazione dei limoni più caratteristici d'Europa. Oggi, gli antichi muri in pietra, i terrazzamenti e il borgo che li circonda continuano questa storia in un modo nuovo: attraverso la cucina, il vino e l'ospitalità.",
+    "year": "1720",
+    "nodes": {
+      "way01": {
+        "title": "Il viaggio comincia"
+      },
+      "way02": {
+        "title": "Verso Limone"
+      },
+      "way03": {
+        "title": "In arrivo a Limone"
+      },
+      "way04": {
+        "title": "Entrando in paese"
+      },
+      "way05": {
+        "title": "Nel centro storico"
+      },
+      "way06": {
+        "title": "Ci siamo quasi"
+      },
+      "way07": {
+        "title": "Via Fontana"
+      },
+      "way08": {
+        "title": "Ancora pochi passi"
+      },
+      "way09": {
+        "title": "Siete arrivati"
+      },
+      "way10": {
+        "title": "Hostaria Al Buongusto"
+      }
+    }
+  },
+
+  "moments": {
+    "eyebrow": "Momenti dei nostri ospiti",
+    "title": "Ricordi vissuti ad Al Buongusto",
+    "description": "Una cena, un brindisi, un sorriso, un selfie — i momenti che i nostri ospiti portano con sé.",
+    "cards": {
+      "01": {
+        "label": "La prima sera a Limone",
+        "meta": "Ad Al Buongusto"
+      },
+      "02": {
+        "label": "Una tavola da ricordare",
+        "meta": "Ora di cena"
+      },
+      "03": {
+        "label": "Un brindisi da Limone",
+        "meta": "A tavola con gli amici"
+      },
+      "04": {
+        "label": "Un assaggio d'Italia",
+        "meta": "Dalla tavola"
+      },
+      "05": {
+        "label": "Solo noi due",
+        "meta": "Una sera ad Al Buongusto"
+      },
+      "06": {
+        "label": "Un altro brindisi",
+        "meta": "Con gli amici"
+      },
+      "07": {
+        "label": "Una notte a Limone",
+        "meta": "Dopo cena"
+      },
+      "08": {
+        "label": "Un ricordo per due",
+        "meta": "Al Buongusto"
+      },
+      "09": {
+        "label": "Noi siamo stati qui",
+        "meta": "Limone sul Garda"
+      }
+    },
+    "note": "Conserva il momento.",
+    "footer": "Ogni tavola ha una storia. Ogni visita lascia un ricordo."
+  },
+  
+  "cuisine": {
+    "eyebrow": "La Cucina",
+    "title": "La cucina italiana, plasmata dal Lago di Garda",
+    "description": "Da Hostaria Al Buongusto la cucina italiana incontra i sapori del Lago di Garda e del Mediterraneo. Il menu unisce pesce di lago e frutti di mare, pasta fatta a mano, carni selezionate e ingredienti stagionali. Dal pesce d'acqua dolce alla pasta ripiena, dalla Fassona piemontese ai delicati dessert, ogni piatto è interpretato con un tocco contemporaneo, mantenendo intatto il carattere della cucina italiana. Una tavola dove prendersi il proprio tempo, condividere una bottiglia di vino e scoprire qualcosa di nuovo a ogni portata.",
+    "panels": {
+      "lake": {
+        "title": "Lago & Mare",
+        "text": "Pesce di lago, frutti di mare e sapori freschi del Lago di Garda."
+      },
+      "mountain": {
+        "title": "Pasta & Ravioli",
+        "text": "Pasta fatta a mano, fagottini ripieni e condimenti ispirati alla cucina italiana."
+      },
+      "mediterranean": {
+        "title": "Carne & Griglia",
+        "text": "Tartare di Fassona, tagliate, bistecche e carni preparate con cura."
+      },
+      "cellar": {
+        "title": "Vino & Dessert",
+        "text": "Vini selezionati, tiramisù e delicati dessert per concludere il percorso."
+      }
+    },
+    "dishes": {
+      "tunatartare": {
+        "name": "Tartare di Tonno",
+        "description": "Tonno crudo con peperone piquillo, pepe Timut, lime e cremoso di mozzarella."
+      },
+      "lagoAffumicato": {
+        "name": "Salmerino Affumicato",
+        "description": "Salmerino del Garda affumicato con mandarino."
+      },
+      "saporeDiLago": {
+        "name": "Spaghetti al Ragù di Lago",
+        "description": "Spaghetti alla chitarra con ragù di lago, salsa all'aglio dolce e basilico."
+      },
+      "ilNostroMare": {
+        "name": "Fagottini Cernia e Gamberi",
+        "description": "Fagottini fatti a mano ripieni di cernia e gamberi, serviti con la loro bisque."
+      },
+      "cozzePatateBaccala": {
+        "name": "Spaghetti al Tonno e Bottarga",
+        "description": "Spaghetti con aglio, olio, peperoncino, tonno fresco, pomodorini e bottarga di tonno."
+      },
+      "ilPolpoENero": {
+        "name": "Involtini di Pesce",
+        "description": "Involtini di pesce con una finitura croccante e sapori mediterranei."
+      },
+      "duettoTrentino": {
+        "name": "Tartare di Fassona",
+        "description": "Tartare di manzo Fassona piemontese con tartufo, Grana e perle di balsamico."
+      },
+      "terraDEstate": {
+        "name": "Tagliata di Manzo",
+        "description": "Tagliata di manzo con rucola, Grana e patate al rosmarino."
+      },
+      "blackAngus": {
+        "name": "Tomahawk di Suino",
+        "description": "Tomahawk di suino da 300 g in crosta di panko, con insalata di patate, cipolla di Tropea e yogurt alpino."
+      },
+      "reginaMargherita": {
+        "name": "Tagliatelle ai Quattro Pomodori",
+        "description": "Tagliatelle ai quattro pomodori con stracciatella di burrata e pesto di basilico."
+      },
+      "tonnetto": {
+        "name": "Trota e Zucchine",
+        "description": "Darna di trota con zucchine alla scapece."
+      },
+      "diavola": {
+        "name": "La Freschezza di Limone",
+        "description": "Un delicato dessert al limone, ispirato ai sapori e alla freschezza di Limone sul Garda."
+      }
+    }
+  },
+
+  "menu": {
+    "eyebrow": "I Preferiti del Menu",
+    "title": "Assapora il momento",
+    "cta": "Scopri il menu",
+    "note": "Il menu cambia con le stagioni e in base alla disponibilità del mercato.",
+    "items": {
+      "01": {
+        "name": "Tartare di Fassona",
+        "description": "Tartare di manzo Fassona piemontese con tartufo, Grana e perle di aceto balsamico.",
+        "price": "~€22"
+      },
+      "02": {
+        "name": "Fagottini Cernia e Gamberi",
+        "description": "Fagottini fatti a mano ripieni di cernia e gamberi, serviti con la loro bisque.",
+        "price": "~€20"
+      },
+      "03": {
+        "name": "Spaghetti al Tonno Fresco e Bottarga",
+        "description": "Spaghetti Felicetti con aglio, olio, peperoncino, pomodorini in acqua di mare, tonno fresco e bottarga di tonno.",
+        "price": "~€18"
+      },
+      "04": {
+        "name": "Tagliata di Manzo",
+        "description": "Tagliata di manzo con rucola, Grana e patate al rosmarino.",
+        "price": "~€26"
+      },
+      "05": {
+        "name": "La Freschezza di Limone",
+        "description": "Il dessert al limone della casa, ispirato alla freschezza di Limone sul Garda.",
+        "price": "~€9"
+      }
+    }
+  },
+  
+  "place": {
+    "eyebrow": "Il Luogo",
+    "title": "Il gusto di Limone",
+    "description": "Un luogo accogliente nel cuore di Limone sul Garda, dove la cucina italiana incontra l'atmosfera senza tempo del lago.",
+    "cta": "Scopri il locale"
+  },
+
+  "events": {
+    "eyebrow": "Eventi",
+    "title": "Rendilo speciale",
+    "description": "Cene romantiche, celebrazioni e momenti speciali nel cuore di Limone sul Garda.",
+    "cta": "Scopri gli eventi",
+    "types": {
+      "privateDinners": "Cene private",
+      "celebrations": "Celebrazioni",
+      "aperitivo": "Aperitivo speciale"
+    }
+  },
+
+  "visit": {
+    "eyebrow": "Visita Al Buongusto",
+    "title": "Vieni a Limone",
+    "description": "Ci trovi nel cuore di Limone sul Garda: lascia che la tua visita diventi parte dell'esperienza del Lago di Garda.",
+    "locationLabel": "Dove siamo",
+    "address": "Via Fontana 2 · 25010 Limone sul Garda BS · Italia",
+    "directions": "Come arrivare"
+  },
+  
+  "footer": {
+    "brandLabel": "HOSTARIA AL BUONGUSTO",
+    "brandTitle": "HOSTARIA",
+    "subtitle": "al Buongusto",
+    "phone": "+39 0365 388123",
+    "website": "albuongusto.com",
+    "followUs": "Seguici",
+    "legal": "Via Fontana 2 · 25010 Limone sul Garda BS · Italia. Ci trovi nel cuore di Limone: prenditi il tempo per esplorare il centro storico, le antiche limonaie e i percorsi lungo il lago. Da qui, il Lago di Garda è tutto da scoprire — a piedi, in bicicletta o in barca.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "google": "Google Maps",
+    "tripadvisor": "Tripadvisor",
+    "copyright": "© 2026",
+    "credit": "Realizzato con amore da",
+    "author": "daaart.in.ua"
+  },
+
+  "reservation": {
+    "eyebrow": "Prenotazioni",
+    "title": "Prenota il tuo tavolo",
+    "description": "Scegli l'opzione che preferisci e contatta direttamente Hostaria Al Buongusto.",
+    "close": "Chiudi",
+    "phone": {
+      "title": "Prenota per telefono",
+      "description": "Chiamaci direttamente per prenotare il tuo tavolo."
+    },
+    "location": {
+      "title": "Dove trovarci",
+      "description": "Apri la nostra posizione su Google Maps e scopri come raggiungerci.",
+      "label": "Via Fontana 2 · Limone sul Garda"
+    },
+    "website": {
+      "title": "Visita il nostro sito",
+      "description": "Scopri Hostaria Al Buongusto e organizza la tua visita."
+    },
+    "note": "Ti consigliamo di prenotare in anticipo, soprattutto per la sera e per le occasioni speciali."
+  }
+
+}

@@ -1,0 +1,306 @@
+{
+
+  "meta": {
+    "title": "Bastione — Lounge & Restaurant | Riva del Garda",
+    "description": "Bastione Lounge & Restaurant above Lake Garda in Riva del Garda, Trentino."
+  },
+
+  "navigation": {
+    "view": "View",
+    "experience": "Experience",
+    "cuisine": "Cuisine",
+    "menu": "Menu",
+    "place": "The Place",
+    "moments": "Moments",
+    "events": "Events",
+    "visit": "Visit"
+  },
+
+  "hero": {
+    "titlePrefix": "A table above",
+    "titleLake": "Lake",
+    "titleGarda": "Garda",
+    "eyebrow": "Lounge & Restaurant",
+    "title": "A table above Lake Garda.",
+    "location": "Limone sul Garda · Lake Garda · Italy",
+    "description": "A place where Italian cuisine, hospitality and the beauty of Lake Garda come together.",
+    "primaryCta": "Reserve a table",
+    "secondaryCta": "Discover Al Buongusto",
+    "scroll": "Discover"
+  },
+
+  "view": {
+    "eyebrow": "The Atmosphere",
+    "explore": "Explore",
+    "title": "Two sides of Al Buongusto",
+    "description": "From a sun-filled garden beneath the lemon trees to intimate evenings at the table — discover the atmosphere of Hostaria Al Buongusto.",
+    "lakeCaption": "The Garden · Limone sul Garda",
+    "lakeDetail": "Among lemon trees and stone terraces",
+    "cityCaption": "The Evening · Al Buongusto",
+    "cityDetail": "Dinner · Wine · Limone sul Garda",
+    "locationLabel": "The location",
+    "locationText": "In the heart of Limone sul Garda, surrounded by the character and beauty of Lake Garda."
+  },
+
+  "experience": {
+    "eyebrow": "A place with roots",
+    "title": "From the lemon gardens of Limone to Al Buongusto",
+    "text": "Hostaria Al Buongusto is set within the walls of an ancient limonaia — the traditional lemon gardens that shaped the identity of Limone sul Garda. Built into the terraces between the lake and the mountain, these historic gardens protected citrus trees through the winter and made Limone one of Europe's most distinctive lemon-growing villages. Today, the old stone walls, terraces and surrounding village continue that story in a new way: through food, wine and hospitality.",
+    "year": "1720",
+    "nodes": {
+      "way01": {
+        "title": "The journey begins"
+      },
+      "way02": {
+        "title": "On the way to Limone"
+      },
+      "way03": {
+        "title": "Approaching Limone"
+      },
+      "way04": {
+        "title": "Entering the town"
+      },
+      "way05": {
+        "title": "Into the old town"
+      },
+      "way06": {
+        "title": "Almost there"
+      },
+      "way07": {
+        "title": "Via Fontana"
+      },
+      "way08": {
+        "title": "A few steps away"
+      },
+      "way09": {
+        "title": "You have arrived"
+      },
+      "way10": {
+        "title": "Hostaria Al Buongusto"
+      }
+    }
+  },
+
+  "moments": {
+    "eyebrow": "Moments from our guests",
+    "title": "Memories made at Al Buongusto",
+    "description": "A dinner, a toast, a smile, a selfie — the moments our guests take home with them.",
+
+    "cards": {
+      "01": {
+        "label": "First evening in Limone",
+        "meta": "At Al Buongusto"
+      },
+      "02": {
+        "label": "A table to remember",
+        "meta": "Dinner time"
+      },
+      "03": {
+        "label": "Cheers from Limone",
+        "meta": "A table with friends"
+      },
+      "04": {
+        "label": "A little taste of Italy",
+        "meta": "From the table"
+      },
+      "05": {
+        "label": "Just the two of us",
+        "meta": "An evening at Al Buongusto"
+      },
+      "06": {
+        "label": "One more toast",
+        "meta": "With friends"
+      },
+      "07": {
+        "label": "A night in Limone",
+        "meta": "After dinner"
+      },
+      "08": {
+        "label": "A memory for two",
+        "meta": "Al Buongusto"
+      },
+      "09": {
+        "label": "We were here",
+        "meta": "Limone sul Garda"
+      }
+    },
+
+    "note": "Keep the moment.",
+    "footer": "Every table has a story. Every visit leaves a memory."
+  },
+
+  "cuisine": {
+    "eyebrow": "The Cuisine",
+    "title": "Italian cuisine, shaped by Lake Garda",
+    "description": "At Hostaria Al Buongusto, Italian cooking meets the flavours of Lake Garda and the Mediterranean. The menu brings together lake fish and seafood, handmade pasta, carefully prepared meat dishes and seasonal ingredients. From freshwater fish and filled pasta to Fassona beef and delicate desserts, each plate is presented with a contemporary touch while keeping the character of Italian cuisine. A table made for taking your time, sharing a bottle of wine and discovering something new with every course.",
+    "panels": {
+      "lake": {
+        "title": "Lake & Seafood",
+        "text": "Freshwater fish, seafood and the fresh flavours of Lake Garda."
+      },
+      "mountain": {
+        "title": "Pasta & Ravioli",
+        "text": "Handmade pasta, filled fagottini and sauces inspired by Italian cuisine."
+      },
+      "mediterranean": {
+        "title": "Meat & Grill",
+        "text": "Fassona tartare, tagliata, steaks and carefully prepared meat dishes."
+      },
+      "cellar": {
+        "title": "Wine & Dessert",
+        "text": "Selected wines, tiramisù and delicate desserts to complete the experience."
+      }
+    },
+    "dishes": {
+      "tunatartare": {
+        "name": "Tuna Tartare",
+        "description": "Raw tuna with piquillo pepper, Timut pepper, lime and creamy mozzarella."
+      },
+      "lagoAffumicato": {
+        "name": "Smoked Salmerino",
+        "description": "Smoked Garda char with mandarin."
+      },
+      "saporeDiLago": {
+        "name": "Spaghetti with Lake Ragout",
+        "description": "Spaghetti alla chitarra with lake fish ragout, sweet garlic and basil sauce."
+      },
+      "ilNostroMare": {
+        "name": "Fagottini with Grouper & Prawns",
+        "description": "Handmade fagottini filled with grouper and prawns, served with their bisque."
+      },
+      "cozzePatateBaccala": {
+        "name": "Tuna Spaghetti with Bottarga",
+        "description": "Spaghetti with garlic, olive oil, chilli, fresh tuna, tomatoes and tuna bottarga."
+      },
+      "ilPolpoENero": {
+        "name": "Fish Involtini",
+        "description": "Fish involtini with a crisp finish, served with Mediterranean flavours."
+      },
+      "duettoTrentino": {
+        "name": "Fassona Beef Tartare",
+        "description": "Piedmontese Fassona beef tartare with truffle, Grana and balsamic pearls."
+      },
+      "terraDEstate": {
+        "name": "Tagliata di Manzo",
+        "description": "Sliced beef with rocket, Grana and rosemary potatoes."
+      },
+      "blackAngus": {
+        "name": "Pork Tomahawk",
+        "description": "300 g pork tomahawk with a crispy panko crust, potato salad, Tropea onion and alpine yogurt."
+      },
+      "reginaMargherita": {
+        "name": "Tagliatelle with Four Tomatoes",
+        "description": "Tagliatelle with four tomatoes, burrata stracciatella and basil pesto."
+      },
+      "tonnetto": {
+        "name": "Trout with Zucchini",
+        "description": "Trout with zucchini prepared alla scapece."
+      },
+      "diavola": {
+        "name": "The Freshness of Lemon",
+        "description": "A delicate lemon dessert inspired by the flavours and freshness of Limone sul Garda."
+      }
+    }
+  },
+
+  "menu": {
+    "eyebrow": "Menu Favourites",
+    "title": "Taste the moment",
+    "cta": "Explore the menu",
+    "note": "The menu changes with the seasons and market availability.",
+    "items": {
+      "01": {
+        "name": "Fassona Beef Tartare",
+        "description": "Piedmontese Fassona beef tartare with truffle, Grana and balsamic pearls.",
+        "price": "~€22"
+      },
+      "02": {
+        "name": "Fagottini with Grouper & Prawns",
+        "description": "Handmade fagottini filled with grouper and prawns, served with their bisque.",
+        "price": "~€20"
+      },
+      "03": {
+        "name": "Spaghetti with Fresh Tuna & Bottarga",
+        "description": "Felicetti spaghetti with garlic, olive oil, chilli, sea-water tomatoes, fresh tuna and tuna bottarga.",
+        "price": "~€18"
+      },
+      "04": {
+        "name": "Tagliata di Manzo",
+        "description": "Sliced beef with rocket, Grana and rosemary potatoes.",
+        "price": "~€26"
+      },
+      "05": {
+        "name": "The Freshness of Lemon",
+        "description": "The house's signature lemon dessert, inspired by the freshness of Limone sul Garda.",
+        "price": "~€9"
+      }
+    }
+  },
+
+  "place": {
+    "eyebrow": "The Place",
+    "title": "A taste of Limone",
+    "description": "A welcoming place in the heart of Limone sul Garda, where Italian cuisine meets the timeless atmosphere of the lake.",
+    "cta": "Discover the place"
+  },
+
+  "events": {
+    "eyebrow": "Events",
+    "title": "Make it yours",
+    "description": "Romantic dinners, celebrations and special moments in the heart of Limone sul Garda.",
+    "cta": "Explore events",
+    "types": {
+      "privateDinners": "Private dinners",
+      "celebrations": "Celebrations",
+      "aperitivo": "Special aperitivo"
+    }
+  },
+
+  "visit": {
+    "eyebrow": "Visit Al Buongusto",
+    "title": "Come to Limone",
+    "description": "Find us in the heart of Limone sul Garda and make your visit part of the Lake Garda experience.",
+    "locationLabel": "Where we are",
+    "address": "Via Fontana 2 · 25010 Limone sul Garda BS · Italy",
+    "directions": "Get directions"
+  },
+
+  "footer": {
+    "brandLabel": "HOSTARIA AL BUONGUSTO",
+    "brandTitle": "HOSTARIA",
+    "subtitle": "al Buongusto",
+    "phone": "+39 0365 388123",
+    "website": "albuongusto.com",
+    "followUs": "Follow us",
+    "legal": "Via Fontana 2 · 25010 Limone sul Garda BS · Italy. Find us in the heart of Limone, then take your time to explore the old town, historic lemon houses and the lakeside paths. From here, Lake Garda is yours to discover — on foot, by bike or by boat.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "google": "Google Maps",
+    "tripadvisor": "Tripadvisor",
+    "copyright": "© 2026",
+    "credit": "Made with love by",
+    "author": "daaart.in.ua"
+  },
+
+  "reservation": {
+    "eyebrow": "Reservations",
+    "title": "Reserve your table",
+    "description": "Choose the option that suits you best and get in touch with Hostaria Al Buongusto.",
+    "close": "Close",
+    "phone": {
+      "title": "Reserve by phone",
+      "description": "Call us directly to arrange your table."
+    },
+    "location": {
+      "title": "Find us",
+      "description": "Open our location in Google Maps and get directions.",
+      "label": "Via Fontana 2 · Limone sul Garda"
+    },
+    "website": {
+      "title": "Visit our website",
+      "description": "Discover Hostaria Al Buongusto and plan your visit."
+    },
+    "note": "We recommend booking in advance, especially for evenings and special occasions."
+  }
+
+}

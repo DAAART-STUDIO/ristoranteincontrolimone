@@ -1,0 +1,1697 @@
+<!doctype html>
+<html lang="it" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HOSTARIA AL BUONGUSTO — restaurant in Limone sul Garda, Lake Garda, Italy.">
+  <meta name="theme-color" content="#f3f1ec">
+
+  <title>HOSTARIA AL BUONGUSTO | Limone sul Garda</title>
+
+  <link rel="icon" href="assets/logo/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/logo/favicon-16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="assets/logo/favicon-180.png">
+
+  <link rel="manifest"   href="site.webmanifest">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components/buttons.css">
+  <link rel="stylesheet" href="css/components/navigation.css">
+  <link rel="stylesheet" href="css/components/sections.css">
+  <link rel="stylesheet" href="css/components/hero.css">
+  <link rel="stylesheet" href="css/components/view.css">
+  <link rel="stylesheet" href="css/components/experience.css">
+  <link rel="stylesheet" href="css/components/moments.css">
+  <link rel="stylesheet" href="css/components/cuisine.css">
+  <link rel="stylesheet" href="css/components/dishes-wheel.css">
+  <link rel="stylesheet" href="css/components/menu.css">
+  <link rel="stylesheet" href="css/components/place.css">
+  <link rel="stylesheet" href="css/components/events.css">
+  <link rel="stylesheet" href="css/components/visit.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+  <link rel="stylesheet" href="css/components/scroll-progress.css">
+  <link rel="stylesheet" href="css/components/section-scroll-cue.css">
+  <link rel="stylesheet" href="css/components/reservation-modal.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+  <!-- =========================================================
+      SCROLL VERTICAL
+      ========================================================= -->
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress__track">
+      <div class="scroll-progress__bar"></div>
+      <span class="scroll-progress__thumb"></span>
+    </div>
+    <span class="scroll-progress__value">0%</span>
+  </div>
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+  <header class="site-header" data-header>
+
+    <div class="container site-header__inner">
+      <!-- logo -->
+      <a class="brand" href="#hero" aria-label="HOSTARIA AL BUONGUSTO">
+        <span class="brand__logo" aria-hidden="true">
+          <!-- SVG logo -->
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 341.28 82.28">
+            <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+            <path d="M58.74,21.23c-6.57,8.72-15.41,17.15-23.7,24.09-1.59,2.8-6.59,12.17-5.36,15.08,6.53-1.57,12.07-7.54,17.39-11.5l.34.52c-4.38,4.51-11.51,13.03-18.01,13.47-5.26-1.13-2.43-8.12-1.88-11.48-3.18,1.29-7.49,7.04-11.41,5.14-1.44-.71-1.62-2.15-1.58-3.6,0-.29.4-1.33-.07-1.25-3.08,2.14-6.38,7.33-10.6,5.74-3.27-2.01.45-7.35,2.12-9.35,2.26-2.81,9.71-8.36,12.42-3.65.41.24,1.26-.28,2.04.39,1.54,1.35-.4,3.27-1.06,4.56-.56,1.09-1.55,3.14-1.59,4.32.06,2.73,9.87-5.42,11.28-6,6.76-13.75,22.31-32.94,29.99-36.29s1.89,7.05-.32,9.8ZM59.84,14.5c-1.88,0-6.11,4.83-7.6,6.2-5.51,5.97-9.88,12.97-14.53,19.64.68-.97,1.85-1.5,4.43-4.07,5.7-5.68,11.33-11.33,15.79-18,.33-.49,2.26-3.42,1.91-3.77ZM16.89,45.21c-4.23-.3-9.74,6.04-10.92,9.59.21.02.38,0,.58-.08,3.61-2.37,6.85-6.06,10.13-8.91l.21-.6Z"/>
+            <path d="M311.57,44.43c.18-.53.39-1.44-.05-2.65-.41-1.11-1.35-2.03-3.11-2.49-2.35-.61-4.66,1.34-7.16,3.58s-8.27,8.39-11.99,11.14c-1.07.74-3.58,2.32-4.76,2.63-2.28-.12,1.88-8.54,2.37-9.89,3.5-7.96,13.09-22.48,13.09-22.48,0,0,10.86-.62,19.61-.38,4.95.18,16.41.84,21.71,1.92.07-4.33-18.81-5.35-38.36-5.18-.21-.3.4-1.08.6-1.37,1.49-2.41,4.4-6.46,4.99-7.18s1.17-1.87-1.03-1.92-10.73,10.75-10.73,10.75c-4.33.15-26.3,1.15-27.05,5.78,6.84-1.02,16.03-1.84,24.5-2.21-2.93,5.16-6.47,10.33-8.99,15.84,0,0-11.04,5.11-11.5,4.44-.77-1.14-1.24-3.2-1.06-4.56.08-.63,1.29-1.48,1.72-2.04,1.31-1.71.42-4.19-1.62-3.17-2.15,1.07-3.46,3.98-3.79,6.25-5.13,3.6-10.36,8.05-16.17,10.41-2.6-.34,3.8-9.04,4.45-10.77-.01-.77-.18-1.53-1.11-1.33,0,0-6.4,5.09-9.48,7.39-8.33,6.53-11.35,5.96-1.58-5.7,0,0,.9-1.75-1.6-2.33-1.03-.24-1.38,1.16-2.06,1.5-2.85.98-10.5,4.86-10.81,4.76-.96-.07,2.3-4.17,2.52-4.94.52-1.82-1.38-2.26-2.73-1.56-4-7.29-14.02.3-17.84,4.17-2.86,1.82-7.62,4.03-10.8,5.29-4.97,2.02-4.61,1.45-3.03-3.18.87-2.51,1.82-6.13-1.8-5.2-3.53.76-7.03,5.92-10,7.64-.33-.36,2.03-3.44,2.33-3.94.41-.67,1.57-2.64,1.73-3.29.35-1.4-.75-2.29-2.08-1.79-.86.33-1.56,1.61-2.64,2.29,0,0-4.95,2.73-6.21,2.6-.57-.06-.22-.57-.21-.96.04-2.02-.22-3.9-2.36-4.74-2.14-.95-3.85.01-4.8,2-.63.54-1.91,1.02-2.74,1.69-1.01.83-1.95,2.23-2.81,2.95-2.25,1.9-7.18,4.94-9.83,6.4-1.2.66-2.48,1.53-3.88,1.5-.25-2.06,2.25-5.8,3.22-7.78.6-1.13,2.75-3.85,1.9-5.02-.59-.82-1.59-.05-2.16.34-5.45,3.77-10.41,8.73-16.27,11.92-.58.32-1.71,1.16-1.46-.2.1-.25,3.58-7.05,7.16-11.07.51-.57-.3-1.82-.87-2.17-2.6-1.65-8.07,8.08-8.8,9.69-.73,1.61-1.18,3.4-1.18,3.4-.27,3.21,2.1,4.64,4.98,3.58,4.53-1.64,7.76-6.35,11.69-8.6.18.19-.69,1.72-.81,2.07-.56,1.59-.95,4.17.15,5.6,4.4,3.46,10.35-3.55,14.01-5.75.47-.08.07.96.07,1.25-.04,2.37.72,4.16,3.33,4.36,3.71.28,7.89-4.17,9.79-7.04.18-.27.43-1.04.61-1.16,1.77,0,3.71-.7,5.24-1.7.51.33-7.51,10.78-2.37,11.51,1.27.08,13.59-11.81,13.59-11.81.78-.09-.32,1.02-.67,2.71-2.19,11.47,10.81,3.64,15.27.53l.17.3c-1.64,8.88,14.3-1.44,14.89-2.37l.14.58c-.96,1.06-1.78,3.13-2.72,4.07-.72.71-3.63,2.13-4.72,2.81-53.1,33.73-20.69,45.53,10.1-3.18l10.65-5.59.48.19c-1.93,2.8-5.3,7.83-2.96,10.49s10.81-4.9,14.39-7.17c-2.81,6.29.16,8.08,3.33,7.31,2.77-.67,10-6.61,12.61-8.65.95-.72,1.98-1.51,3.32-2.36l1.16,3.67s-14.18,7.13-11.34,13.09c2.05,3.04,7.55.9,9.96-.67,3.94-2.56,7.34-7.02,5.6-11.96,0,0,8.68-4.06,9.09-4.2-1.72,3.62-4.55,10.25-2.81,14.18,3.58,6.06,12.61-4.99,16.02-7.31.52-.12-.03.72-.04.84-.34,2.17-.12,4.23,2.14,5.18,5.18,1.5,10.41-5.26,11.71-9.7,5.55-.68,11.79-2.05,14.92-2.43s7.64-.24,7.64-.24c-5.35-3-16.06.13-22.03.75ZM174.88,45.74c-1.09,1.48-4.25,4.88-6.11,5.18-.13-1.78.95-3.39,1.92-4.79.35-.51,1.95-2.63,2.36-2.82.51-.24.54.21.8.46.46.45.85.84,1.4,1.18.04.16-.26.61-.37.78ZM176.04,42.91c-1.41-1,.21-4.1.93-2.47.21.66,0,2.82-.93,2.47ZM209.73,65.4c-3.35,3.41-12.83,13.49-17.49,13.72.59-6.48,20.25-21.65,26.27-24.51-.79,1.49-7.04,9.06-8.78,10.78ZM213.39,47.35c2.01-3.2,10.84-11.22,14.85-8.61-.47,1.07-16.08,10.86-14.85,8.61ZM261.15,58.45c.02-2.28,2.61-4.22,4.29-5.52,1.44-.96,4.23-3.45,5.89-3.63.4,4.06-6.4,9.5-10.18,9.15ZM300.41,53.73c-.07-1.82.99-3.58,1.91-5.1.39-.65,2.4-3.7,3.03-3.71l2.12,1c.06,1.93-5.14,7.78-7.06,7.81ZM307.89,43.97c-1.08-.74-1.04-1.41-.03-2.2.36-.08.69,2.42.03,2.2Z"/>
+            <path d="M126.1,33.1c-5.69-3.09-12.16-4.49-18.59-4.87l.15-.51c6.8-2.63,13.78-4.93,20.31-8.17,4.36-2.17,15.08-7.87,8.32-13.53-6.77-5.67-22.6-4.49-30.73-2.69-9.68,2.13-25.17,8.28-31.93,15.66-1.06,1.16-2.54,3.79.02,4.08,2.22.26,4.22-1.15,6.12-2.07l-.66-.46c-.39-.03-3,.89-3.03.24,10.06-8.9,23.6-14.03,36.96-15.72,4.21-.31,21.37-1.68,20.51,5.17-5.82,7.19-23.48,12.35-32.24,16.54-1.23.54-2.29,1.29-2.03.18,5.68-5.66,10.83-12.21,17.17-17.13.57-.54,2.46-1.17,2.27-1.94h-1.33s.44.15.44.15c-.47.76-.77,0-.83,0-10.61,3.28-18.49,13.88-26.25,21.42-5.94,1.64-12.27,3.74-17.2,7.63-1.45,1.14-2.65,2.48-2.65,2.48-.03.24-.01.25.22.22,2.93-1.41,6.21-2.63,9.25-3.89l5.66-1.72c.35-.09.24.35.17.55,0,0-2.22,2.65-3.77,4.51-1.55,1.86-5.35,6.98-7.41,9.92-26.98,9.72-23.53,19.29-19.11,21.34.42.25,5.94,2.41,15.8,1.47,13.65-.86,60.45-14.92,60.49-31.01l4.93-.9v-.55s-5.55-.49-5.55-.49c-1.07-2.11-5.32-5.42-5.5-5.87ZM83.61,44.44c.55-.84,4.43-5.36,5.6-6.25,2.68-2.45,6.71-5.41,10-6.68,8.06-.59,18.91-.24,25.81,4.45.57.41,3.39,2.79,2.16,3.31-15,.66-44.9,7.19-44.9,7.19-.06-.27,1.08-1.71,1.34-2.02ZM79.91,67.06c-9.7,2.42-20.11,3.14-23.37.45-4.04-4.62,10.68-12.89,14.96-14.03-.24.33-.51,1.11-1,1.86l-2.39,4.12c-.89,1.47-1.61,2.84-1.27,3.33.95.47,2.05-.32,3.01-1.13,2.78-2.81,5.19-6.53,7.7-9.48,1.26-1.48.87-1.52,2.93-2.2,15.28-3.99,31.31-7.84,47.1-8.61-4.1,11.73-37.96,23.27-47.67,25.69Z"/>
+          </svg>
+        </span>
+        <span class="brand__name">HOSTARIA</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#view" data-i18n="navigation.view">View</a>
+        <a href="#experience" data-i18n="navigation.experience">Experience</a>
+        <a href="#moments" data-i18n="navigation.moments">Moments</a>
+        <a href="#cuisine" data-i18n="navigation.cuisine">Cuisine</a>
+        <a href="#menu" data-i18n="navigation.menu">Menu</a>
+        <a href="#place" data-i18n="navigation.place">The Place</a>
+        <a href="#events" data-i18n="navigation.events">Events</a>
+        <a href="#visit" data-i18n="navigation.visit">Visit</a>
+      </nav>
+      <div class="site-header__actions">
+        <!-- Language -->
+        <div class="language-toggle" data-language-toggle aria-label="Language">
+          <button class="language-toggle__btn" type="button" data-language-option="it" aria-pressed="true">
+            IT
+          </button>
+          <button class="language-toggle__btn" type="button" data-language-option="en" aria-pressed="false">
+            EN
+          </button>
+          <button class="language-toggle__btn" type="button" data-language-option="de" aria-pressed="false">
+            DE
+          </button>
+        </div>
+
+        <!-- Theme -->
+        <div class="theme-toggle" data-theme-toggle aria-label="Theme">
+          <button class="theme-toggle__btn" type="button" data-theme-option="light" aria-label="Light theme" aria-pressed="true">
+            ☼
+          </button>
+          <button class="theme-toggle__btn" type="button" data-theme-option="dark" aria-label="Dark theme" aria-pressed="false">
+            ◐
+          </button>
+        </div>
+
+        <!-- Reservation -->
+        <a class="btn btn--primary" href="#reservation-modal" data-reservation-open data-i18n="hero.primaryCta">Reserve a table</a>
+
+        <!-- Mobile -->
+        <button class="hamburger" type="button" data-menu-toggle aria-label="Open menu" aria-expanded="false">
+          <span class="sr-only">
+            Menu
+          </span>
+          <svg data-menu-icon-open viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M4 7h16M4 12h16M4 17h16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+            />
+          </svg>
+          <svg data-menu-icon-close viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M5 5l14 14M19 5L5 19"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- =======================================================
+         MOBILE MENU
+         ======================================================= -->
+    <nav class="mobile-menu" data-mobile-menu hidden aria-label="Mobile navigation">
+      <div class="mobile-menu__links">
+        <a href="#view" data-i18n="navigation.view">View</a>
+        <a href="#experience" data-i18n="navigation.experience">Experience</a>
+        <a href="#moments" data-i18n="navigation.moments">Moments</a>
+        <a href="#cuisine" data-i18n="navigation.cuisine">Cuisine</a>
+        <a href="#menu" data-i18n="navigation.menu">Menu</a>
+        <a href="#place" data-i18n="navigation.place">The Place</a>
+        <a href="#events" data-i18n="navigation.events">Events</a>
+        <a href="#visit" data-i18n="navigation.visit">Visit</a>
+      </div>
+      <div class="mobile-menu__footer">
+        <div class="language-toggle" data-language-toggle>
+          <button class="language-toggle__btn" type="button" data-language-option="it" aria-pressed="true">
+            IT
+          </button>
+          <button class="language-toggle__btn" type="button" data-language-option="en" aria-pressed="false">
+            EN
+          </button>
+          <button class="language-toggle__btn" type="button" data-language-option="de" aria-pressed="false">
+            DE
+          </button>
+        </div>
+        <div class="theme-toggle" data-theme-toggle>
+          <button class="theme-toggle__btn" type="button" data-theme-option="light" aria-label="Light theme" aria-pressed="true">
+            ☼
+          </button>
+          <button class="theme-toggle__btn" type="button" data-theme-option="dark" aria-label="Dark theme" aria-pressed="false">
+            ◐
+          </button>
+        </div>
+        <a class="btn btn--primary btn--block" href="#reservation-modal" data-reservation-open data-i18n="hero.primaryCta">Reserve a table</a>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- =========================================================
+       MAIN
+       ========================================================= -->
+  <main>
+
+    <section class="hero" id="hero"  data-section="hero" aria-labelledby="hero-title">
+      <!-- =======================================================
+          HERO PHOTOGRAPHY
+          ======================================================= -->
+      <div class="hero__media" aria-hidden="true">
+        <img class="hero__image hero__image--day" src="assets/images/content/hero/hero-day.webp" alt="" fetchpriority="high">
+        <img class="hero__image hero__image--night" src="assets/images/content/hero/hero-night.webp" alt="">
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <!-- =======================================================
+          HERO CONTENT
+          ======================================================= -->
+      <div class="container hero__content">
+        <p class="eyebrow hero__eyebrow" data-i18n="hero.eyebrow">
+          Lounge & Restaurant
+        </p> 
+        <h1 class="hero__title" id="hero-title">
+          <span data-i18n="hero.titlePrefix">
+            A table above
+          </span>
+          <span class="hero__title-word hero__title-word--green" data-i18n="hero.titleLake">
+            Lake
+          </span>
+          <span class="hero__title-word hero__title-word--red" data-i18n="hero.titleGarda">
+            Garda
+          </span>
+        </h1>
+          <p class="hero__location" data-i18n="hero.location">
+            Limone sul Garda · Lake Garda · Italy
+          </p>    
+          <p class="hero__description" data-i18n="hero.description">
+            A place where Italian cuisine, hospitality and the beauty of Lake Garda come together.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#reservation-modal" data-reservation-open data-i18n="hero.primaryCta">
+              Reserve a table
+            </a>
+            <a class="btn btn--outline" href="#experience" data-i18n="hero.secondaryCta">
+              Discover Al Buongusto
+            </a>
+          </div>
+      </div>
+  
+      <!-- =======================================================
+          SCROLL
+          ======================================================= -->
+      <a class="hero__scroll" href="#view" aria-label="Discover">
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+        <span data-i18n="hero.scroll">
+          Discover
+        </span>
+      </a>
+    </section>
+
+    <!-- =======================================================
+    VIEW CONTENT
+      ======================================================= -->
+    <section class="view" id="view" data-section="view" aria-labelledby="view-title">
+      <div class="view__gallery">
+        <div class="view__header">
+          <div class="view__intro">
+            <p class="view__eyebrow" data-i18n="view.eyebrow">
+              The Atmosphere
+            </p>
+            <h2 class="view__title" id="view-title" data-i18n="view.title">
+              Two sides of Al Buongusto
+            </h2>
+            <p class="view__description" data-i18n="view.description">
+              From a sun-filled garden beneath the lemon trees to intimate evenings at the table — discover the atmosphere of Hostaria Al Buongusto.
+            </p>
+          </div>
+        </div>
+        <!-- GARDEN -->
+        <figure class="view__visual view__visual--lake is-active">
+          <div class="view__image-frame">
+            <img class="view__image" src="assets/images/content/view-evening.webp" alt="" loading="eager">
+            <div class="view__image-overlay" aria-hidden="true"></div>
+          </div>
+          <figcaption class="view__caption">
+            <span data-i18n="view.lakeCaption">
+              The Garden · Limone sul Garda
+            </span>
+            <span data-i18n="view.lakeDetail">
+              Among lemon trees and stone terraces
+            </span>
+          </figcaption>
+        </figure>
+        <!-- EVENING -->
+        <figure class="view__visual view__visual--city is-preview">
+          <div class="view__image-frame">
+            <img class="view__image" src="assets/images/content/view-garden.webp" alt="" loading="lazy">
+            <div class="view__image-overlay" aria-hidden="true"></div>
+          </div>
+          <figcaption class="view__caption">
+            <span data-i18n="view.cityCaption">
+              The Evening · Al Buongusto
+            </span>
+            <span data-i18n="view.cityDetail">
+              Dinner · Wine · Limone sul Garda
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+      <!-- GALLERY HINT -->
+      <div class="view__gallery-hint" aria-hidden="true">
+        <span data-i18n="view.explore">Explore</span>
+        <span class="view__gallery-hint-line"></span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE OVERLAY — route to Hostaria Al Buongusto -->
+    <div class="experience__wave" data-experience-wave>
+      <div class="experience__wave-track" data-wave-track tabindex="0" aria-label="Photo gallery showing the route to Hostaria Al Buongusto.">
+        <div class="experience__wave-strip" data-wave-strip>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way1.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">01</span>
+              <span data-i18n="experience.nodes.way01.title">The journey begins</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way2.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">02</span>
+              <span data-i18n="experience.nodes.way02.title">On the way to Limone</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way3.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">03</span>
+              <span data-i18n="experience.nodes.way03.title">Approaching Limone</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way4.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">04</span>
+              <span data-i18n="experience.nodes.way04.title">Entering the town</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way5.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">05</span>
+              <span data-i18n="experience.nodes.way05.title">Into the old town</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way6.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">06</span>
+              <span data-i18n="experience.nodes.way06.title">Almost there</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way7.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">07</span>
+              <span data-i18n="experience.nodes.way07.title">Via Fontana</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way8.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">08</span>
+              <span data-i18n="experience.nodes.way08.title">A few steps away</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way9.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">09</span>
+              <span data-i18n="experience.nodes.way09.title">You have arrived</span>
+            </figcaption>
+          </figure>
+          <figure class="experience__wave-item" data-wave-item>
+            <img src="assets/images/content/way10.webp" alt="" loading="lazy">
+            <figcaption>
+              <span class="experience__wave-index">10</span>
+              <span data-i18n="experience.nodes.way10.title">Hostaria Al Buongusto</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" data-section="experience" class="experience" aria-labelledby="experience-title">
+      <div class="experience__visual" aria-hidden="true">
+        <img
+          class="experience__visual-image experience__visual-image--light"
+          src="assets/images/content/history-light.jpg"
+          alt=""
+          loading="lazy"
+        >
+        <img
+          class="experience__visual-image experience__visual-image--dark"
+          src="assets/images/content/history-dark.jpg"
+          alt=""
+          loading="lazy"
+        >
+      </div>
+      <div class="container experience__container">
+        <div class="experience__year" aria-hidden="true" data-i18n="experience.year">
+          1720
+        </div>
+        <div class="experience__content" data-reveal>
+          <p class="experience__eyebrow" data-i18n="experience.eyebrow">
+            A place with roots
+          </p>
+          <h2 class="experience__title" id="experience-title" data-i18n="experience.title">
+            From the lemon gardens of Limone to Al Buongusto
+          </h2>
+          <p class="experience__text" data-i18n="experience.text">
+            Hostaria Al Buongusto lives within the walls of an ancient limonaia — the traditional lemon gardens that shaped the identity of Limone sul Garda. Built into the terraces between the lake and the mountain, these historic gardens protected citrus trees through the winter and made Limone one of Europe's most distinctive lemon-growing villages. Today, the old stone walls, terraces and surrounding village continue that story in a new way: through food, wine and hospitality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    MOMENTS
+    ========================================================= -->
+    <section id="moments" data-section="moments" class="moments" aria-labelledby="moments-title">
+      <div class="container moments__container">
+        <!-- PHOTO STAGE -->
+        <div class="moments__stage" data-moments-stage>
+          <!-- PHOTO 01 -->
+          <figure class="moments__card moments__card--01" data-moment-card data-rotation="-8">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-01.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.01.label">
+                First evening in Limone
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.01.meta">
+                At Al Buongusto
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 02 -->
+          <figure class="moments__card moments__card--02" data-moment-card data-rotation="-4">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-02.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.02.label">
+                A table to remember
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.02.meta">
+                Dinner time
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 03 -->
+          <figure class="moments__card moments__card--03" data-moment-card data-rotation="-6">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-03.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.03.label">
+                Cheers from Limone
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.03.meta">
+                A table with friends
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 04 -->
+          <figure class="moments__card moments__card--04" data-moment-card data-rotation="-1">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-04.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.04.label">
+                A little taste of Italy
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.04.meta">
+                From the table
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 05 -->
+          <figure class="moments__card moments__card--05" data-moment-card data-rotation="0">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-05.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.05.label">
+                Just the two of us
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.05.meta">
+                An evening at Al Buongusto
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 06 -->
+          <figure class="moments__card moments__card--06" data-moment-card data-rotation="-2">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-06.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.06.label">
+                One more toast
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.06.meta">
+                With friends
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 07 -->
+          <figure class="moments__card moments__card--07" data-moment-card data-rotation="5">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-07.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.07.label">
+                A night in Limone
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.07.meta">
+                After dinner
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 08 -->
+          <figure class="moments__card moments__card--08" data-moment-card data-rotation="9">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-08.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.08.label">
+                A memory for two
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.08.meta">
+                Al Buongusto
+              </span>
+            </figcaption>
+          </figure>
+          <!-- PHOTO 09 -->
+          <figure class="moments__card moments__card--09" data-moment-card data-rotation="6">
+            <div class="moments__card-media">
+              <img src="assets/images/content/moments/moment-09.webp" alt="" loading="lazy">
+            </div>
+            <figcaption class="moments__card-caption">
+              <span class="moments__card-label" data-i18n="moments.cards.09.label">
+                We were here
+              </span>
+              <span class="moments__card-meta" data-i18n="moments.cards.09.meta">
+                Limone sul Garda
+              </span>
+            </figcaption>
+          </figure>
+          <!-- STAGE NOTE -->
+          <div class="moments__note" aria-hidden="true">
+            <span data-i18n="moments.note">
+              Keep the moment.
+            </span>
+          </div>
+        </div>
+        <!-- INTRO -->
+        <div class="moments__intro" data-reveal>
+          <p class="moments__eyebrow" data-i18n="moments.eyebrow">
+            Moments from our guests
+          </p>
+          <h2 class="moments__title" id="moments-title" data-i18n="moments.title">
+            Memories made at Al Buongusto
+          </h2>
+          <p class="moments__description" data-i18n="moments.description">
+            A dinner, a toast, a smile, a selfie — the moments our guests take home with them.
+          </p>
+        </div>
+        <div class="moments__footer" data-reveal>
+          <p data-i18n="moments.footer">
+            Every table has a story. Every visit leaves a memory.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUISINE -->
+    <section id="cuisine" data-section="cuisine" class="cuisine" aria-labelledby="cuisine-title">
+      <div class="cuisine__panels" data-cuisine-panels data-reveal>
+        <!-- LAKE & SEAFOOD -->
+        <button class="cuisine__panel is-active" type="button" data-cuisine-panel="lake" aria-pressed="true">
+          <span class="cuisine__panel-media">
+            <img
+              class="cuisine__panel-image"
+              src="assets/images/content/cuisine/cuisine-lake.webp"
+              alt=""
+              loading="lazy"
+            >
+            <span class="cuisine__panel-overlay" aria-hidden="true"></span>
+          </span>
+          <span class="cuisine__panel-body">
+            <span class="cuisine__panel-index">01</span>
+            <span class="cuisine__panel-title" data-i18n="cuisine.panels.lake.title">
+              Lake & Seafood
+            </span>
+            <span class="cuisine__panel-text" data-i18n="cuisine.panels.lake.text">
+              Freshwater fish, seafood and the flavours of Lake Garda.
+            </span>
+          </span>
+        </button>
+        <!-- PASTA & RAVIOLI -->
+        <button class="cuisine__panel" type="button" data-cuisine-panel="mountain" aria-pressed="false">
+          <span class="cuisine__panel-media">
+            <img
+              class="cuisine__panel-image"
+              src="assets/images/content/cuisine/cuisine-mountain.webp"
+              alt=""
+              loading="lazy"
+            >
+            <span class="cuisine__panel-overlay" aria-hidden="true"></span>
+          </span>
+          <span class="cuisine__panel-body">
+            <span class="cuisine__panel-index">02</span>
+            <span class="cuisine__panel-title" data-i18n="cuisine.panels.mountain.title">
+              Pasta & Ravioli
+            </span>
+            <span class="cuisine__panel-text" data-i18n="cuisine.panels.mountain.text">
+              Handmade pasta, filled fagottini and sauces inspired by Italy.
+            </span>
+          </span>
+        </button>
+        <!-- MEAT & GRILL -->
+        <button class="cuisine__panel" type="button" data-cuisine-panel="mediterranean" aria-pressed="false">
+          <span class="cuisine__panel-media">
+            <img
+              class="cuisine__panel-image"
+              src="assets/images/content/cuisine/cuisine-mediterranean.webp"
+              alt=""
+              loading="lazy"
+            >
+            <span class="cuisine__panel-overlay" aria-hidden="true"></span>
+          </span>
+          <span class="cuisine__panel-body">
+            <span class="cuisine__panel-index">03</span>
+            <span class="cuisine__panel-title" data-i18n="cuisine.panels.mediterranean.title">
+              Meat & Grill
+            </span>
+            <span class="cuisine__panel-text" data-i18n="cuisine.panels.mediterranean.text">
+              Fassona tartare, tagliata, steak and carefully prepared meat dishes.
+            </span>
+          </span>
+        </button>
+        <!-- WINE & DESSERT -->
+        <button class="cuisine__panel" type="button" data-cuisine-panel="cellar" aria-pressed="false">
+          <span class="cuisine__panel-media">
+            <img
+              class="cuisine__panel-image"
+              src="assets/images/content/cuisine/cuisine-cellar.webp"
+              alt=""
+              loading="lazy"
+            >
+            <span class="cuisine__panel-overlay" aria-hidden="true"></span>
+          </span>
+          <span class="cuisine__panel-body">
+            <span class="cuisine__panel-index">04</span>
+            <span class="cuisine__panel-title" data-i18n="cuisine.panels.cellar.title">
+              Wine & Dessert
+            </span>
+            <span class="cuisine__panel-text" data-i18n="cuisine.panels.cellar.text">
+              Selected wines, tiramisù and delicate desserts to finish the evening.
+            </span>
+          </span>
+        </button>
+      </div>
+      <div class="container cuisine__content">
+        <!-- TEXT -->
+        <div class="cuisine__intro">
+          <div class="section-header" data-reveal>
+            <p class="eyebrow" data-i18n="cuisine.eyebrow">
+              The Cuisine
+            </p>
+            <h2 class="section-header__title" id="cuisine-title" data-i18n="cuisine.title">
+              Italian cuisine, shaped by Lake Garda
+            </h2>
+            <p data-i18n="cuisine.description">
+              At Hostaria Al Buongusto, Italian cooking meets the flavours of Lake Garda and the Mediterranean.
+              The menu brings together lake fish and seafood, handmade pasta, carefully prepared meat dishes and seasonal ingredients.
+              From freshwater fish and filled pasta to Fassona beef and delicate desserts, each plate is presented with a contemporary touch while keeping the character of Italian cuisine.
+              A table made for taking your time, sharing a bottle of wine and discovering something new with every course.
+            </p>
+          </div>
+        </div>
+        <!-- DISHES WHEEL -->
+        <div class="dishes-wheel" data-dishes-wheel data-reveal>
+          <div class="dishes-wheel__stage">
+            <!-- 01 -->
+            <button
+              class="dishes-wheel__petal is-active"
+              type="button"
+              data-dish-petal
+              style="--i: 0;"
+              aria-pressed="true"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/tunatartare.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.tunatartare.name"
+                data-dish-name
+              >
+                Tuna tartare
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.bastione.description"
+                data-dish-description
+              >
+                Raw tuna with piquillo pepper, Timut pepper, lime and creamy mozzarella.
+              </span>
+            </button>
+            <!-- 02 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 1;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/lago-affumicato.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.lagoAffumicato.name"
+                data-dish-name
+              >
+                Smoked Salmerino
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.lagoAffumicato.description"
+                data-dish-description
+              >
+                Smoked Garda char with mandarin.
+              </span>
+            </button>
+            <!-- 03 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 2;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/sapore-di-lago.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.saporeDiLago.name"
+                data-dish-name
+              >
+                Spaghetti with Lake Ragout
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.saporeDiLago.description"
+                data-dish-description
+              >
+                Spaghetti alla chitarra with lake fish ragout, sweet garlic and basil sauce.
+              </span>
+            </button>
+            <!-- 04 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 3;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/il-nostro-mare.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.ilNostroMare.name"
+                data-dish-name
+              >
+                Fagottini with Grouper & Prawns
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.ilNostroMare.description"
+                data-dish-description
+              >
+                Handmade fagottini filled with grouper and prawns, served with their bisque.
+              </span>
+            </button>
+            <!-- 05 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 4;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/cozze-patate-baccala.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.cozzePatateBaccala.name"
+                data-dish-name
+              >
+                Tuna Spaghetti with Bottarga
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.cozzePatateBaccala.description"
+                data-dish-description
+              >
+                Spaghetti with garlic, olive oil, chilli, fresh tuna, tomatoes and tuna bottarga.
+              </span>
+            </button>
+            <!-- 06 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 5;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/il-polpo-e-nero.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.ilPolpoENero.name"
+                data-dish-name
+              >
+                Fish Involtini
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.ilPolpoENero.description"
+                data-dish-description
+              >
+                Fish involtini with a crisp finish, served with Mediterranean flavours.
+              </span>
+            </button>
+            <!-- 07 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 6;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/duetto-trentino.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.duettoTrentino.name"
+                data-dish-name
+              >
+                Fassona Beef Tartare
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.duettoTrentino.description"
+                data-dish-description
+              >
+                Piedmontese Fassona beef tartare with truffle, Grana and balsamic pearls.
+              </span>
+            </button>
+            <!-- 08 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 7;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/terra-destate.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.terraDEstate.name"
+                data-dish-name
+              >
+                Tagliata di Manzo
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.terraDEstate.description"
+                data-dish-description
+              >
+                Sliced beef with rocket, Grana and rosemary potatoes.
+              </span>
+            </button>
+            <!-- 09 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 8;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/black-angus.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.blackAngus.name"
+                data-dish-name
+              >
+                Tomahawk di Suino
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.blackAngus.description"
+                data-dish-description
+              >
+                300 g pork tomahawk with crispy panko crust, potato salad, Tropea onion and alpine yogurt.
+              </span>
+            </button>
+            <!-- 10 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 9;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/regina-margherita.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.reginaMargherita.name"
+                data-dish-name
+              >
+                Tagliatelle with Four Tomatoes
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.reginaMargherita.description"
+                data-dish-description
+              >
+                Tagliatelle with four tomatoes, burrata stracciatella and basil pesto.
+              </span>
+            </button>
+            <!-- 11 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 10;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/tonnetto.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.tonnetto.name"
+                data-dish-name
+              >
+                Trout with Zucchini
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.tonnetto.description"
+                data-dish-description
+              >
+                Trout with zucchini prepared alla scapece.
+              </span>
+            </button>
+            <!-- 12 -->
+            <button
+              class="dishes-wheel__petal"
+              type="button"
+              data-dish-petal
+              style="--i: 11;"
+              aria-pressed="false"
+            >
+              <img
+                class="dishes-wheel__petal-image"
+                src="assets/images/content/cuisine/dishes/diavola.webp"
+                alt=""
+              >
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.diavola.name"
+                data-dish-name
+              >
+                The Freshness of Lemon
+              </span>
+              <span
+                class="sr-only"
+                data-i18n="cuisine.dishes.diavola.description"
+                data-dish-description
+              >
+                A fresh lemon dessert inspired by the flavours of Limone sul Garda.
+              </span>
+            </button>
+            <!-- CENTRE PLATE -->
+            <div class="dishes-wheel__center">
+              <img
+                class="dishes-wheel__center-image"
+                src="assets/images/content/cuisine/dishes/tunatartare.webp"
+                alt=""
+                data-dishes-center-image
+              >
+              <span class="dishes-wheel__center-scrim" aria-hidden="true"></span>
+              <div class="dishes-wheel__center-text">
+                <span
+                  class="dishes-wheel__center-label"
+                  data-i18n="cuisine.dishes.bastione.name"
+                  data-dishes-center-label
+                >
+                  Tuna tartare
+                </span>
+                <span
+                  class="dishes-wheel__center-caption"
+                  data-i18n="cuisine.dishes.bastione.description"
+                  data-dishes-center-caption
+                >
+                  Raw tuna with piquillo pepper, Timut pepper, lime and creamy mozzarella.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" data-section="menu" class="menu" aria-labelledby="menu-title">
+      <div class="container menu__container">
+        <div class="section-header" data-reveal>
+          <!-- MOTIF -->
+          <span class="menu__motif" aria-hidden="true"></span>
+          <p class="eyebrow" data-i18n="menu.eyebrow">
+            Menu Favourites
+          </p>
+          <h2 class="section-header__title" id="menu-title" data-i18n="menu.title">
+            Taste the moment.
+          </h2>
+        </div>
+        <div class="menu__list" data-reveal>
+          <!-- 01 -->
+          <div class="menu__item">
+            <span class="menu__item-index">01</span>
+            <div class="menu__item-body">
+              <h3 class="menu__item-name" data-i18n="menu.items.01.name">
+                Fassona Beef Tartare
+              </h3>
+              <p class="menu__item-description" data-i18n="menu.items.01.description">
+                Piedmontese Fassona beef tartare with truffle, Grana and balsamic pearls.
+              </p>
+            </div>
+            <span class="menu__item-price" data-i18n="menu.items.01.price">
+              —
+            </span>
+          </div>
+          <!-- 02 -->
+          <div class="menu__item">
+            <span class="menu__item-index">02</span>
+            <div class="menu__item-body">
+              <h3 class="menu__item-name" data-i18n="menu.items.02.name">
+                Fagottini with Grouper &amp; Prawns
+              </h3>
+              <p class="menu__item-description" data-i18n="menu.items.02.description">
+                Handmade fagottini filled with grouper and prawns, served with their bisque.
+              </p>
+            </div>
+            <span class="menu__item-price" data-i18n="menu.items.02.price">
+              —
+            </span>
+          </div>
+          <!-- 03 -->
+          <div class="menu__item">
+            <span class="menu__item-index">03</span>
+
+            <div class="menu__item-body">
+              <h3 class="menu__item-name" data-i18n="menu.items.03.name">
+                Spaghetti with Fresh Tuna &amp; Bottarga
+              </h3>
+              <p class="menu__item-description" data-i18n="menu.items.03.description">
+                Felicetti spaghetti with garlic, olive oil, chilli, sea-water tomatoes, fresh tuna and tuna bottarga.
+              </p>
+            </div>
+            <span class="menu__item-price" data-i18n="menu.items.03.price">
+              —
+            </span>
+          </div>
+          <!-- 04 -->
+          <div class="menu__item">
+            <span class="menu__item-index">04</span>
+            <div class="menu__item-body">
+              <h3 class="menu__item-name" data-i18n="menu.items.04.name">
+                Tagliata di Manzo
+              </h3>
+              <p class="menu__item-description" data-i18n="menu.items.04.description">
+                Sliced beef with rocket, Grana and rosemary potatoes.
+              </p>
+            </div>
+            <span class="menu__item-price" data-i18n="menu.items.04.price">
+              —
+            </span>
+          </div>
+          <!-- 05 -->
+          <div class="menu__item">
+            <span class="menu__item-index">05</span>
+            <div class="menu__item-body">
+              <h3 class="menu__item-name" data-i18n="menu.items.05.name">
+                The Freshness of Lemon
+              </h3>
+              <p class="menu__item-description" data-i18n="menu.items.05.description">
+                The house's signature lemon dessert, inspired by the freshness of Limone sul Garda.
+              </p>
+            </div>
+            <span class="menu__item-price" data-i18n="menu.items.05.price">
+              —
+            </span>
+          </div>
+        </div>
+        <div class="menu__footer" data-reveal>
+          <p class="menu__note" data-i18n="menu.note">
+            The menu changes with the seasons and market availability.
+          </p>
+          <a
+            class="btn btn--outline"
+            href="https://albuongusto.com/"
+            target="_blank"
+            rel="noopener"
+            data-i18n="menu.cta"
+          >
+            Explore the menu
+          </a>
+        </div>
+        <!-- DECORATIVE CUP -->
+        <div class="menu__cup" aria-hidden="true">
+          <span class="menu__cup-art"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+        THE PLACE
+        ========================================================= -->
+    <section id="place" data-section="place" class="place" aria-labelledby="place-title">
+      <div class="place__pin" data-scroll-morph>
+        <div class="place__stage" data-reveal>
+          <!-- COLLAGE (start state) -->
+          <figure class="place__bg">
+            <img class="place__bg-image" src="assets/images/content/place/place-bg.webp" alt="" loading="lazy">
+          </figure>
+          <div class="place__bg-scrim" aria-hidden="true"></div>
+          <!-- FULL IMAGE (end state) -->
+          <figure class="place__full">
+            <img class="place__full-image" src="assets/images/content/place/place-full.webp" alt="" loading="lazy">
+          </figure>
+          <!-- FRAGMENTS -->
+          <div class="place__fragments" aria-hidden="true">
+            <figure class="place__fragment place__fragment--01">
+              <img src="assets/images/content/place/place-01.webp" alt="" loading="lazy">
+            </figure>
+            <figure class="place__fragment place__fragment--02">
+              <img src="assets/images/content/place/place-02.webp" alt="" loading="lazy">
+            </figure>
+            <figure class="place__fragment place__fragment--03">
+              <img src="assets/images/content/place/place-03.webp" alt="" loading="lazy">
+            </figure>
+            <figure class="place__fragment place__fragment--04">
+              <img src="assets/images/content/place/place-04.webp" alt="" loading="lazy">
+            </figure>
+            <figure class="place__fragment place__fragment--05">
+              <img src="assets/images/content/place/place-05.webp" alt="" loading="lazy">
+            </figure>
+            <figure class="place__fragment place__fragment--06">
+              <img src="assets/images/content/place/place-06.webp" alt="" loading="lazy">
+            </figure>
+          </div>
+          <div class="place__overlay" aria-hidden="true"></div>
+          <!-- CONTENT -->
+          <div class="container place__content">
+            <p class="eyebrow place__eyebrow" data-i18n="place.eyebrow">
+              The Place
+            </p>
+            <h2 class="place__title" id="place-title" data-i18n="place.title">
+              A taste of Limone
+            </h2>
+            <p class="place__description" data-i18n="place.description">
+              A welcoming place in the heart of Limone sul Garda,
+              where Italian cuisine meets the timeless atmosphere of the lake.
+            </p>
+            <a class="btn place__cta" href="#visit" data-i18n="place.cta">
+              Discover the place
+            </a>
+          </div>
+          <div class="section-scroll-cue" aria-hidden="true">
+            <span class="section-scroll-cue__arrow section-scroll-cue__arrow--1"></span>
+            <span class="section-scroll-cue__arrow section-scroll-cue__arrow--2"></span>
+            <span class="section-scroll-cue__arrow section-scroll-cue__arrow--3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+        EVENTS
+        ========================================================= -->
+    <section id="events" data-section="events" class="events" aria-labelledby="events-title">
+      <div class="events__pin" data-scroll-morph>
+        <div class="events__stage" data-reveal>
+          <!-- COLLAGE (start state) -->
+          <figure class="events__bg">
+            <img
+              class="events__bg-image"
+              src="assets/images/content/events/events-bg.webp"
+              alt=""
+              loading="lazy"
+            >
+          </figure>
+          <div class="events__bg-scrim" aria-hidden="true"></div>
+          <!-- FULL IMAGE (end state) -->
+          <figure class="events__full">
+            <img
+              class="events__full-image"
+              src="assets/images/content/events/events-full.webp"
+              alt=""
+              loading="lazy"
+            >
+          </figure>
+          <!-- FRAGMENTS -->
+          <div class="events__fragments" aria-hidden="true">
+            <figure class="events__fragment events__fragment--01">
+              <img src="assets/images/content/events/events-01.webp" alt="" loading="lazy">
+            </figure>
+            <figure class="events__fragment events__fragment--02">
+              <img
+                src="assets/images/content/events/events-02.webp"
+                alt=""
+                loading="lazy"
+              >
+            </figure>
+            <figure class="events__fragment events__fragment--03">
+              <img
+                src="assets/images/content/events/events-03.webp"
+                alt=""
+                loading="lazy"
+              >
+            </figure>
+            <figure class="events__fragment events__fragment--04">
+              <img
+                src="assets/images/content/events/events-04.webp"
+                alt=""
+                loading="lazy"
+              >
+            </figure>
+            <figure class="events__fragment events__fragment--05">
+              <img
+                src="assets/images/content/events/events-05.webp"
+                alt=""
+                loading="lazy"
+              >
+            </figure>
+            <figure class="events__fragment events__fragment--06">
+              <img
+                src="assets/images/content/events/events-06.webp"
+                alt=""
+                loading="lazy"
+              >
+            </figure>
+          </div>
+          <div class="events__overlay" aria-hidden="true"></div>
+          <!-- CONTENT -->
+          <div class="container events__content">
+            <p class="eyebrow events__eyebrow" data-i18n="events.eyebrow">
+              Events
+            </p>
+            <h2 class="events__title" id="events-title" data-i18n="events.title">
+              Make it yours
+            </h2>
+            <p class="events__description" data-i18n="events.description">
+              Romantic dinners, celebrations and special moments in the heart of Limone sul Garda.
+            </p>
+            <ul class="events__types">
+              <li data-i18n="events.types.privateDinners">
+                Private dinners
+              </li>
+              <li data-i18n="events.types.celebrations">
+                Celebrations
+              </li>
+              <li data-i18n="events.types.aperitivo">
+                Special aperitivo
+              </li>
+            </ul>
+            <a class="btn events__cta" href="#visit" data-i18n="events.cta">
+              Explore events
+            </a>
+          </div>
+          <div class="section-scroll-cue" aria-hidden="true">
+            <span class="section-scroll-cue__arrow section-scroll-cue__arrow--1"></span>
+            <span class="section-scroll-cue__arrow section-scroll-cue__arrow--2"></span>
+            <span class="section-scroll-cue__arrow section-scroll-cue__arrow--3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+        VISIT
+        ========================================================= -->
+    <section id="visit" data-section="visit" class="visit" aria-labelledby="visit-title">
+      <div class="visit__stage">
+        <!-- MAP BACKGROUND -->
+        <figure class="visit__bg" aria-hidden="true">
+          <img class="visit__bg-image" src="assets/images/content/contentmapbg.webp" alt="" loading="lazy">
+        </figure>
+        <div class="visit__bg-scrim" aria-hidden="true"></div>
+        <!-- CONTENT CONTAINER -->
+        <div class="container visit__container">
+          <div class="visit__intro">
+            <p class="eyebrow visit__eyebrow" data-i18n="visit.eyebrow">
+              Visit Al Buongusto
+            </p>
+            <h2 class="visit__title" id="visit-title" data-i18n="visit.title">
+              Come to Limone
+            </h2>
+            <p class="visit__description" data-i18n="visit.description">
+              Find us in the heart of Limone sul Garda and make your visit part of the Lake Garda experience.
+            </p>
+          </div>
+          <div class="visit__details">
+            <div class="visit__location">
+              <p class="visit__label" data-i18n="visit.locationLabel">
+                Where we are
+              </p>
+              <address class="visit__address" data-i18n="visit.address">
+                Via Fontana 2 · 25010 Limone sul Garda BS · Italy
+              </address>
+            </div>
+            <a
+              class="visit__cta"
+              href="https://www.google.com/maps/dir/?api=1&destination=Hostaria%20Al%20Buongusto%2C%20Via%20Fontana%202%2C%2025010%20Limone%20sul%20Garda%20BS%2C%20Italy"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-i18n="visit.directions"
+            >
+              Get directions
+            </a>
+          </div>
+        </div>
+        <!-- AL BUONGUSTO PIN -->
+        <div class="visit__pin" aria-hidden="true">
+          <img class="visit__pin-image" src="assets/images/content/contentpin.webp" alt="" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+      FOOTER
+      ========================================================= -->
+  <footer class="site-footer">
+    <div class="site-footer__top">
+      <div class="container footer__container">
+        <!-- BRAND / CONTACT -->
+        <div class="site-footer__panel site-footer__panel--stone">
+          <div class="site-footer__panel-inner">
+            <a class="footer-brand" href="#hero" aria-label="HOSTARIA AL BUONGUSTO" data-i18n-aria-label="footer.brandLabel">
+              <span class="footer-brand__crest" aria-hidden="true">
+                <!-- SVG logo -->
+                <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 341.28 82.28">
+                  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+                  <path d="M58.74,21.23c-6.57,8.72-15.41,17.15-23.7,24.09-1.59,2.8-6.59,12.17-5.36,15.08,6.53-1.57,12.07-7.54,17.39-11.5l.34.52c-4.38,4.51-11.51,13.03-18.01,13.47-5.26-1.13-2.43-8.12-1.88-11.48-3.18,1.29-7.49,7.04-11.41,5.14-1.44-.71-1.62-2.15-1.58-3.6,0-.29.4-1.33-.07-1.25-3.08,2.14-6.38,7.33-10.6,5.74-3.27-2.01.45-7.35,2.12-9.35,2.26-2.81,9.71-8.36,12.42-3.65.41.24,1.26-.28,2.04.39,1.54,1.35-.4,3.27-1.06,4.56-.56,1.09-1.55,3.14-1.59,4.32.06,2.73,9.87-5.42,11.28-6,6.76-13.75,22.31-32.94,29.99-36.29s1.89,7.05-.32,9.8ZM59.84,14.5c-1.88,0-6.11,4.83-7.6,6.2-5.51,5.97-9.88,12.97-14.53,19.64.68-.97,1.85-1.5,4.43-4.07,5.7-5.68,11.33-11.33,15.79-18,.33-.49,2.26-3.42,1.91-3.77ZM16.89,45.21c-4.23-.3-9.74,6.04-10.92,9.59.21.02.38,0,.58-.08,3.61-2.37,6.85-6.06,10.13-8.91l.21-.6Z"/>
+                  <path d="M311.57,44.43c.18-.53.39-1.44-.05-2.65-.41-1.11-1.35-2.03-3.11-2.49-2.35-.61-4.66,1.34-7.16,3.58s-8.27,8.39-11.99,11.14c-1.07.74-3.58,2.32-4.76,2.63-2.28-.12,1.88-8.54,2.37-9.89,3.5-7.96,13.09-22.48,13.09-22.48,0,0,10.86-.62,19.61-.38,4.95.18,16.41.84,21.71,1.92.07-4.33-18.81-5.35-38.36-5.18-.21-.3.4-1.08.6-1.37,1.49-2.41,4.4-6.46,4.99-7.18s1.17-1.87-1.03-1.92-10.73,10.75-10.73,10.75c-4.33.15-26.3,1.15-27.05,5.78,6.84-1.02,16.03-1.84,24.5-2.21-2.93,5.16-6.47,10.33-8.99,15.84,0,0-11.04,5.11-11.5,4.44-.77-1.14-1.24-3.2-1.06-4.56.08-.63,1.29-1.48,1.72-2.04,1.31-1.71.42-4.19-1.62-3.17-2.15,1.07-3.46,3.98-3.79,6.25-5.13,3.6-10.36,8.05-16.17,10.41-2.6-.34,3.8-9.04,4.45-10.77-.01-.77-.18-1.53-1.11-1.33,0,0-6.4,5.09-9.48,7.39-8.33,6.53-11.35,5.96-1.58-5.7,0,0,.9-1.75-1.6-2.33-1.03-.24-1.38,1.16-2.06,1.5-2.85.98-10.5,4.86-10.81,4.76-.96-.07,2.3-4.17,2.52-4.94.52-1.82-1.38-2.26-2.73-1.56-4-7.29-14.02.3-17.84,4.17-2.86,1.82-7.62,4.03-10.8,5.29-4.97,2.02-4.61,1.45-3.03-3.18.87-2.51,1.82-6.13-1.8-5.2-3.53.76-7.03,5.92-10,7.64-.33-.36,2.03-3.44,2.33-3.94.41-.67,1.57-2.64,1.73-3.29.35-1.4-.75-2.29-2.08-1.79-.86.33-1.56,1.61-2.64,2.29,0,0-4.95,2.73-6.21,2.6-.57-.06-.22-.57-.21-.96.04-2.02-.22-3.9-2.36-4.74-2.14-.95-3.85.01-4.8,2-.63.54-1.91,1.02-2.74,1.69-1.01.83-1.95,2.23-2.81,2.95-2.25,1.9-7.18,4.94-9.83,6.4-1.2.66-2.48,1.53-3.88,1.5-.25-2.06,2.25-5.8,3.22-7.78.6-1.13,2.75-3.85,1.9-5.02-.59-.82-1.59-.05-2.16.34-5.45,3.77-10.41,8.73-16.27,11.92-.58.32-1.71,1.16-1.46-.2.1-.25,3.58-7.05,7.16-11.07.51-.57-.3-1.82-.87-2.17-2.6-1.65-8.07,8.08-8.8,9.69-.73,1.61-1.18,3.4-1.18,3.4-.27,3.21,2.1,4.64,4.98,3.58,4.53-1.64,7.76-6.35,11.69-8.6.18.19-.69,1.72-.81,2.07-.56,1.59-.95,4.17.15,5.6,4.4,3.46,10.35-3.55,14.01-5.75.47-.08.07.96.07,1.25-.04,2.37.72,4.16,3.33,4.36,3.71.28,7.89-4.17,9.79-7.04.18-.27.43-1.04.61-1.16,1.77,0,3.71-.7,5.24-1.7.51.33-7.51,10.78-2.37,11.51,1.27.08,13.59-11.81,13.59-11.81.78-.09-.32,1.02-.67,2.71-2.19,11.47,10.81,3.64,15.27.53l.17.3c-1.64,8.88,14.3-1.44,14.89-2.37l.14.58c-.96,1.06-1.78,3.13-2.72,4.07-.72.71-3.63,2.13-4.72,2.81-53.1,33.73-20.69,45.53,10.1-3.18l10.65-5.59.48.19c-1.93,2.8-5.3,7.83-2.96,10.49s10.81-4.9,14.39-7.17c-2.81,6.29.16,8.08,3.33,7.31,2.77-.67,10-6.61,12.61-8.65.95-.72,1.98-1.51,3.32-2.36l1.16,3.67s-14.18,7.13-11.34,13.09c2.05,3.04,7.55.9,9.96-.67,3.94-2.56,7.34-7.02,5.6-11.96,0,0,8.68-4.06,9.09-4.2-1.72,3.62-4.55,10.25-2.81,14.18,3.58,6.06,12.61-4.99,16.02-7.31.52-.12-.03.72-.04.84-.34,2.17-.12,4.23,2.14,5.18,5.18,1.5,10.41-5.26,11.71-9.7,5.55-.68,11.79-2.05,14.92-2.43s7.64-.24,7.64-.24c-5.35-3-16.06.13-22.03.75ZM174.88,45.74c-1.09,1.48-4.25,4.88-6.11,5.18-.13-1.78.95-3.39,1.92-4.79.35-.51,1.95-2.63,2.36-2.82.51-.24.54.21.8.46.46.45.85.84,1.4,1.18.04.16-.26.61-.37.78ZM176.04,42.91c-1.41-1,.21-4.1.93-2.47.21.66,0,2.82-.93,2.47ZM209.73,65.4c-3.35,3.41-12.83,13.49-17.49,13.72.59-6.48,20.25-21.65,26.27-24.51-.79,1.49-7.04,9.06-8.78,10.78ZM213.39,47.35c2.01-3.2,10.84-11.22,14.85-8.61-.47,1.07-16.08,10.86-14.85,8.61ZM261.15,58.45c.02-2.28,2.61-4.22,4.29-5.52,1.44-.96,4.23-3.45,5.89-3.63.4,4.06-6.4,9.5-10.18,9.15ZM300.41,53.73c-.07-1.82.99-3.58,1.91-5.1.39-.65,2.4-3.7,3.03-3.71l2.12,1c.06,1.93-5.14,7.78-7.06,7.81ZM307.89,43.97c-1.08-.74-1.04-1.41-.03-2.2.36-.08.69,2.42.03,2.2Z"/>
+                  <path d="M126.1,33.1c-5.69-3.09-12.16-4.49-18.59-4.87l.15-.51c6.8-2.63,13.78-4.93,20.31-8.17,4.36-2.17,15.08-7.87,8.32-13.53-6.77-5.67-22.6-4.49-30.73-2.69-9.68,2.13-25.17,8.28-31.93,15.66-1.06,1.16-2.54,3.79.02,4.08,2.22.26,4.22-1.15,6.12-2.07l-.66-.46c-.39-.03-3,.89-3.03.24,10.06-8.9,23.6-14.03,36.96-15.72,4.21-.31,21.37-1.68,20.51,5.17-5.82,7.19-23.48,12.35-32.24,16.54-1.23.54-2.29,1.29-2.03.18,5.68-5.66,10.83-12.21,17.17-17.13.57-.54,2.46-1.17,2.27-1.94h-1.33s.44.15.44.15c-.47.76-.77,0-.83,0-10.61,3.28-18.49,13.88-26.25,21.42-5.94,1.64-12.27,3.74-17.2,7.63-1.45,1.14-2.65,2.48-2.65,2.48-.03.24-.01.25.22.22,2.93-1.41,6.21-2.63,9.25-3.89l5.66-1.72c.35-.09.24.35.17.55,0,0-2.22,2.65-3.77,4.51-1.55,1.86-5.35,6.98-7.41,9.92-26.98,9.72-23.53,19.29-19.11,21.34.42.25,5.94,2.41,15.8,1.47,13.65-.86,60.45-14.92,60.49-31.01l4.93-.9v-.55s-5.55-.49-5.55-.49c-1.07-2.11-5.32-5.42-5.5-5.87ZM83.61,44.44c.55-.84,4.43-5.36,5.6-6.25,2.68-2.45,6.71-5.41,10-6.68,8.06-.59,18.91-.24,25.81,4.45.57.41,3.39,2.79,2.16,3.31-15,.66-44.9,7.19-44.9,7.19-.06-.27,1.08-1.71,1.34-2.02ZM79.91,67.06c-9.7,2.42-20.11,3.14-23.37.45-4.04-4.62,10.68-12.89,14.96-14.03-.24.33-.51,1.11-1,1.86l-2.39,4.12c-.89,1.47-1.61,2.84-1.27,3.33.95.47,2.05-.32,3.01-1.13,2.78-2.81,5.19-6.53,7.7-9.48,1.26-1.48.87-1.52,2.93-2.2,15.28-3.99,31.31-7.84,47.1-8.61-4.1,11.73-37.96,23.27-47.67,25.69Z"/>
+                </svg>
+              </span>
+              <span class="footer-brand__wordmark">
+                <span class="footer-brand__title" data-i18n="footer.brandTitle">
+                  HOSTARIA
+                </span>
+              </span>
+            </a>
+            <!-- CONTACT -->
+            <div class="site-footer__contact" data-reveal>
+              <a href="tel:+390365388123" data-i18n="footer.phone">
+                +39 0365 388123
+              </a>
+              <a href="https://www.albuongusto.com/" target="_blank" rel="noopener noreferrer" data-i18n="footer.website">
+                albuongusto.com
+              </a>
+              <!-- ADDRESS / LEGAL -->
+              <p class="site-footer__legal" data-i18n="footer.legal">
+                Via Fontana 2 · 25010 Limone sul Garda BS · Italy. Find us in the heart of Limone, then take your time to explore the old town, historic lemon houses and the lakeside paths. From here, Lake Garda is yours to discover — on foot, by bike or by boat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- =====================================================
+              PANEL — SOCIAL
+              ===================================================== -->
+        <div class="site-footer__panel site-footer__panel--charcoal">
+          <div class="site-footer__social" data-reveal>
+            <a class="reserve__cta" href="#reservation-modal" data-reservation-open data-i18n="hero.primaryCta">
+              Reserve a table
+            </a>
+            <span class="site-footer__social-label" data-i18n="footer.followUs">
+              Follow us
+            </span>
+            <div class="site-footer__social-links">
+              <!-- GOOGLE -->
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=Hostaria+Al+Buongusto%2C+Via+Fontana+2%2C+25010+Limone+sul+Garda+BS%2C+Italy"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Google Maps"
+                data-i18n-aria-label="footer.google"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M21.35 12.18c0-.7-.06-1.36-.18-2H12v3.79h5.24c-.23 1.2-.92 2.22-1.96 2.9v2.4h3.17c1.86-1.71 2.9-4.24 2.9-7.09z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M12 22c2.65 0 4.87-.87 6.49-2.36l-3.17-2.4c-.88.59-2 .94-3.32.94-2.55 0-4.71-1.72-5.48-4.03H3.24v2.48A10 10 0 0012 22z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M6.52 14.15A5.99 5.99 0 016.2 12c0-.75.13-1.48.32-2.15V7.37H3.24A10 10 0 002 12c0 1.61.39 3.14 1.24 4.63z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M12 6.02c1.44 0 2.73.5 3.75 1.46l2.81-2.8C16.86 3.06 14.65 2 12 2A10 10 0 003.24 7.37L6.52 9.85C7.29 7.54 9.45 6.02 12 6.02z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <!-- TRIPADVISOR -->
+              <a
+                href="https://www.tripadvisor.it/Restaurant_Review-g227887-d24038477-Reviews-Hostaria_Al_Buongusto-Limone_sul_Garda_Province_of_Brescia_Lombardy.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Tripadvisor"
+                data-i18n-aria-label="footer.tripadvisor"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M7 15.5A9.6 9.6 0 0112 14a9.6 9.6 0 015 1.5M4.5 8.5h5M14.5 8.5h5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="7"
+                    cy="13.2"
+                    r="3.7"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <circle
+                    cx="17"
+                    cy="13.2"
+                    r="3.7"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                  />
+                  <circle
+                    cx="7"
+                    cy="13.2"
+                    r="1.1"
+                    fill="currentColor"
+                  />
+                  <circle
+                    cx="17"
+                    cy="13.2"
+                    r="1.1"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <!-- FACEBOOK -->
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                data-i18n-aria-label="footer.facebook"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M13.5 21v-8h2.75l.42-3.1H13.5V7.92c0-.9.25-1.52 1.55-1.52h1.75V3.62c-.3-.04-1.34-.12-2.55-.12-2.53 0-4.27 1.54-4.27 4.38V9.9H7.1V13h2.88v8h3.52z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+              <!-- INSTAGRAM -->
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                data-i18n-aria-label="footer.instagram"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <rect
+                    x="4"
+                    y="4"
+                    width="16"
+                    height="16"
+                    rx="4.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3.6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <circle
+                    cx="16.3"
+                    cy="7.7"
+                    r="1"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====================================================
+          FOOTER BOTTOM
+          ===================================================== -->
+    <div class="site-footer__bottom">
+      <p class="container site-footer__credit">
+        <span data-i18n="footer.copyright">
+          © 2026
+        </span>
+        <span aria-hidden="true"> · </span>
+        <span data-i18n="footer.credit">
+          Made with love by
+        </span>
+        <a href="https://daaart.in.ua/" target="_blank" rel="noopener noreferrer" data-i18n="footer.author">
+          daaart.in.ua
+        </a>
+      </p>
+    </div>
+
+  </footer>
+  <!-- =========================================================
+      RESERVATION MODAL
+      ========================================================= -->
+  <div class="reservation-modal" id="reservation-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="reservation-modal-title">
+    <!-- Backdrop -->
+    <div class="reservation-modal__backdrop" data-reservation-close></div>
+    <!-- Dialog -->
+    <div class="reservation-modal__dialog">
+      <!-- Close -->
+      <button class="reservation-modal__close" type="button" aria-label="Close" data-i18n-aria-label="reservation.close" data-reservation-close>
+        <span></span>
+        <span></span>
+      </button>
+      <!-- Content -->
+      <div class="reservation-modal__content">
+        <!-- Eyebrow -->
+        <p class="eyebrow reservation-modal__eyebrow" data-i18n="reservation.eyebrow">
+          Reservations
+        </p>
+        <!-- Title -->
+        <h2 class="reservation-modal__title" id="reservation-modal-title" data-i18n="reservation.title">
+          Reserve your table
+        </h2>
+        <!-- Description -->
+        <p class="reservation-modal__description" data-i18n="reservation.description">
+          Choose the way that is most convenient for you and contact us directly.
+        </p>
+        <!-- Reservation options -->
+        <div class="reservation-modal__options">
+          <!-- PHONE -->
+          <a class="reservation-modal__option" href="tel:+390365388123">
+            <span class="reservation-modal__option-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M6.7 3.5L9.4 3L11.1 7.3L8.8 9.1C9.8 11.2 11.5 12.9 13.6 13.9L15.4 11.6L19.7 13.3L19.2 16C19 17.1 18 17.9 16.9 17.8C10.6 17.2 5.8 12.4 5.2 6.1C5.1 5 5.6 3.8 6.7 3.5Z"
+                />
+              </svg>
+            </span>
+            <span class="reservation-modal__option-content">
+              <strong data-i18n="reservation.phone.title">
+                Reserve by phone
+              </strong>
+              <span data-i18n="reservation.phone.description">
+                Call us directly to arrange your table.
+              </span>
+              <small>
+                +39 0365 388123
+              </small>
+            </span>
+            <span class="reservation-modal__option-arrow" aria-hidden="true">
+              →
+            </span>
+          </a>
+          <!-- LOCATION -->
+          <a
+            class="reservation-modal__option"
+            href="https://www.google.com/maps/search/?api=1&query=Hostaria+Al+Buongusto%2C+Via+Fontana+2%2C+25010+Limone+sul+Garda+BS%2C+Italy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span  class="reservation-modal__option-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 21C16.4 16.5 19 13.1 19 9.5C19 5.9 15.9 3 12 3C8.1 3 5 5.9 5 9.5C5 13.1 7.6 16.5 12 21Z"
+                />
+                <circle
+                  cx="12"
+                  cy="9.5"
+                  r="2.5"
+                />
+              </svg>
+            </span>
+            <span class="reservation-modal__option-content">
+              <strong data-i18n="reservation.location.title">
+                Find us
+              </strong>
+              <span data-i18n="reservation.location.description">
+                Open our location in Google Maps and get directions.
+              </span>
+              <small data-i18n="reservation.location.label">
+                Via Fontana 2 · Limone sul Garda
+              </small>
+            </span>
+            <span class="reservation-modal__option-arrow" aria-hidden="true">
+              →
+            </span>
+          </a>
+          <!-- WEBSITE -->
+          <a class="reservation-modal__option" href="https://www.albuongusto.com/" target="_blank" rel="noopener noreferrer">
+            <span class="reservation-modal__option-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="8.5"
+                />
+                <path
+                  d="M3.8 12H20.2"
+                />
+                <path
+                  d="M12 3.5C14.1 5.7 15.2 8.5 15.2 12C15.2 15.5 14.1 18.3 12 20.5C9.9 18.3 8.8 15.5 8.8 12C8.8 8.5 9.9 5.7 12 3.5Z"
+                />
+              </svg>
+            </span>
+            <span class="reservation-modal__option-content">
+              <strong data-i18n="reservation.website.title">
+                Visit our website
+              </strong>
+              <span data-i18n="reservation.website.description">
+                Discover Hostaria Al Buongusto and plan your visit.
+              </span>
+              <small>
+                albuongusto.com
+              </small>
+            </span>
+            <span class="reservation-modal__option-arrow" aria-hidden="true">
+              →
+            </span>
+          </a>
+        </div>
+        <!-- Footer note -->
+        <p class="reservation-modal__note" data-i18n="reservation.note">
+          We recommend booking in advance, especially for evenings and special occasions.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>
