@@ -1,796 +1,800 @@
-Website Development Guide
+# Website Development Guide
 
-1. Project Overview
+## 1. Project Model
 
-This project is a modern landing page based on an existing website foundation.
+This project is a new website created from an existing ready-made donor project.
 
-The existing project should be treated as the technical and visual starting point.
+The donor project provides the initial HTML structure, CSS architecture, JavaScript architecture, animations, responsive behavior, reusable components, asset structure, multilingual system, visual system and interaction patterns.
 
-The goal is to progressively adapt the website to the new brand, business, content and visual identity while preserving the existing functionality and architecture wherever possible.
+The new project should evolve from this foundation.
 
-The project should be developed incrementally rather than rewritten from scratch.
+The donor is not the final website. Its code is used as the technical and visual starting point for the new project.
 
-2. Development Philosophy
+The development principle is:
 
-The main principle is:
+> Preserve what works. Adapt what is required.
 
-Preserve what works. Change only what is required.
+---
 
-The existing website may already contain HTML, CSS, JavaScript, animations, transitions, responsive layouts, galleries, modals, navigation, multilingual support and reusable components.
+## 2. Donor → New Project Workflow
 
-These should be preserved unless there is a clear reason to change them.
+The standard workflow is:
 
-Avoid unnecessary refactoring.
-
-Avoid changing architecture simply for stylistic reasons.
-
-Avoid replacing working implementations with new technologies unless explicitly requested.
-
-3. Development Workflow
-
-All development should follow this sequence:
-
-AUDIT
-  ↓
-RESEARCH
-  ↓
-VERIFY
-  ↓
-PLAN
-  ↓
-ADAPT ONE SECTION
-  ↓
+```text
+READY DONOR
+    ↓
+COPY SOURCE FILES
+    ↓
+DO NOT COPY .git
+    ↓
+CREATE NEW PROJECT
+    ↓
+git init
+    ↓
+NEW GITHUB REPOSITORY
+    ↓
+NEW DEPLOYMENT
+    ↓
+RESEARCH NEW BUSINESS
+    ↓
+VERIFY INFORMATION
+    ↓
+ADAPT WEBSITE
+    ↓
 TEST
-  ↓
-REVIEW
-  ↓
+    ↓
 COMMIT
-  ↓
-NEXT SECTION
-
-Do not skip directly from the request to a large implementation.
-
-Each meaningful change should be isolated and verified before moving to the next part of the website.
-
-4. Step 1 — Audit the Existing Project
-
-Before making changes, inspect the project.
-
-Read:
-
-AGENTS.md
-README.md
-
-Then inspect:
-
-HTML
-CSS
-JavaScript
-assets/
-data/
-i18n/
-fonts/
-
-Identify:
-
-main HTML entry point
-
-page sections
-
-CSS files
-
-JavaScript files
-
-reusable components
-
-animations
-
-scroll interactions
-
-responsive rules
-
-translation system
-
-image structure
-
-external dependencies
-
-Understand how the website works before modifying it.
-
-5. Step 2 — Identify the Existing Page Structure
-
-Map the current page into sections.
-
-For example:
-
-Header
-Hero
-About / Place
-Experience
-Gallery
-Cuisine / Products
-Menu
-Moments
-Visit / Location
-Reservation
-Footer
-
-The actual structure depends on the project.
-
-Do not assume that every project uses the same sections.
-
-The important thing is to understand the existing structure before changing it.
-
-6. Step 3 — Research the New Brand
-
-Before replacing content, research the new business or brand.
-
-Collect verified information about:
-
-official name
-
-location
-
-address
-
-telephone
-
-website
-
-social media
-
-services
-
-products
-
-menu
-
-history
-
-atmosphere
-
-architecture
-
-important landmarks
-
-opening information
-
-other relevant business information
-
-Prefer:
-
-official sources
-
-official social profiles
-
-official tourism organizations
-
-official maps/business information
-
-current menus
-
-reputable review platforms
-
-Do not rely on old information if current information is available.
-
-7. Step 4 — Verify Information
-
-Before publishing factual information, verify it.
-
-Important information includes:
-
-addresses
-
-phone numbers
-
-URLs
-
-prices
-
-opening hours
-
-menu items
-
-ingredients
-
-historical dates
-
-business history
-
-location claims
-
-architectural descriptions
-
-If something cannot be verified, do not present it as fact.
-
-Use neutral wording or leave it out.
-
-Never invent missing business information.
-
-8. Step 5 — Adapt the Website One Section at a Time
-
-Work sequentially.
+    ↓
+CONTINUE
+```
+
+The new project must remain completely independent from the donor project.
+
+---
+
+## 3. Creating a Project from a Donor
+
+When starting a new project from a donor:
+
+1. Obtain the required donor version.
+2. Copy the donor source files.
+3. Do not copy the donor `.git` directory.
+4. Preserve the new project's own `AGENTS.md` and `README.md`.
+5. Initialize a new Git repository.
+6. Create a new GitHub repository.
+7. Configure a new remote.
+8. Create the initial commit.
+9. Configure independent deployment.
+10. Begin adapting the website to the new business.
 
 Example:
+
+```bash
+cp -a /path/to/donor/. .
+rm -rf .git
+
+git init
+git branch -M main
+git remote add origin <NEW_REPOSITORY_URL>
+
+git add .
+git commit -m "chore: initialize from donor base"
+git push -u origin main
+```
+
+Never copy donor Git history, remote configuration, deployment credentials, SSH keys or environment secrets.
+
+---
+
+## 4. Project Independence
+
+The new project must have its own:
+
+- Git repository
+- Git history
+- GitHub repository
+- remote
+- deployment configuration
+- deployment credentials
+- project-specific documentation
+
+The donor and new project may share source code, but they must not share repository identity or deployment credentials.
+
+The new project is not a Git fork unless explicitly requested.
+
+---
+
+## 5. Technology
+
+Use the technology already provided by the donor unless a change is explicitly required.
+
+Typical technologies may include:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- ES Modules
+- JSON
+- SVG
+- WebP
+- CSS Custom Properties
+- Responsive CSS
+
+Do not introduce a new framework simply for convenience.
+
+Avoid unnecessary build systems and dependencies.
+
+---
+
+## 6. Project Structure
+
+The exact structure depends on the donor project.
+
+Typical structure:
+
+```text
+/
+├── index.html
+├── robots.txt
+├── sitemap.xml
+├── site.webmanifest
+├── favicon.ico
+├── assets/
+├── css/
+├── js/
+├── data/
+└── docs/
+```
+
+Always follow the actual donor architecture.
+
+---
+
+## 7. Development Philosophy
+
+The project should be developed incrementally.
+
+Preferred workflow:
+
+```text
+Understand
+    ↓
+Research
+    ↓
+Verify
+    ↓
+Plan
+    ↓
+Adapt one logical section
+    ↓
+Test
+    ↓
+Review
+    ↓
+Commit
+    ↓
+Continue
+```
+
+Do not rewrite the entire website from scratch.
+
+Do not make large unrelated changes.
+
+Do not refactor working code without a clear reason.
+
+---
+
+## 8. Before Development
+
+Before making changes:
+
+1. Read `AGENTS.md`.
+2. Read this `README.md`.
+3. Inspect the existing project structure.
+4. Identify the main HTML entry point.
+5. Identify CSS files.
+6. Identify JavaScript files.
+7. Identify assets.
+8. Identify the translation system.
+9. Identify external dependencies.
+10. Understand the existing architecture.
+
+The donor project is assumed to already be implemented and functional.
+
+A complete functionality audit of the donor is not required unless explicitly requested or there is evidence of a specific problem.
+
+---
+
+## 9. Researching the New Business
+
+Before replacing donor content, research the new business.
+
+Collect verified information such as:
+
+- official business name
+- address
+- telephone
+- email
+- website
+- social media
+- opening hours
+- services
+- products
+- menu
+- prices
+- history
+- location
+- architecture
+- atmosphere
+- important landmarks
+- reservation information
+
+Prefer current and authoritative sources.
+
+Priority should generally be:
+
+1. official website
+2. official social profiles
+3. official business listings
+4. official tourism organizations
+5. current menus
+6. reputable platforms and reviews
+
+Do not publish unverified information as fact.
+
+---
+
+## 10. Content Adaptation
+
+Adapt the website one logical section at a time.
+
+Possible sequence:
 
 1. Global metadata
 2. Header
 3. Hero
-4. Place / About
+4. About / Place
 5. Experience
 6. Gallery
 7. Cuisine / Products
 8. Menu
 9. Moments
-10. Visit
+10. Visit / Location
 11. Reservation
 12. Footer
 13. SEO
 14. Final cleanup
 
-The exact order can change depending on the project.
+The exact order may change depending on the project.
 
 The important rule is:
 
-One logical section at a time.
+> One logical section at a time.
 
-Do not simultaneously redesign unrelated sections.
+---
 
-9. HTML Rules
+## 11. HTML
 
-When adapting an existing section:
+When adapting existing HTML, preserve existing:
 
-Preserve existing:
+- classes
+- IDs
+- `data-*` attributes
+- ARIA attributes
+- JavaScript hooks
+- DOM relationships
+- semantic structure
 
-classes
+Before removing or renaming an element, search the repository for references.
 
-IDs
+Example:
 
-data-* attributes
+```bash
+git grep "element-id"
+```
 
-ARIA attributes
+Never assume that an apparently unused class, ID or attribute is unnecessary.
 
-JavaScript hooks
+---
 
-DOM relationships
+## 12. CSS
 
-semantic structure
-
-unless there is a specific reason to change them.
-
-Before removing or renaming an element, search the JavaScript and CSS for references.
-
-Never assume an apparently unused attribute is actually unused.
-
-10. CSS Rules
-
-Reuse the existing CSS system.
+Reuse the existing CSS architecture.
 
 Prefer:
 
-existing variables
+- existing variables
+- existing typography
+- existing spacing
+- existing breakpoints
+- existing utility classes
+- existing animation patterns
 
-existing spacing system
+Avoid duplicate styles.
 
-existing typography
-
-existing breakpoints
-
-existing animation timings
-
-existing utility patterns
-
-Avoid creating duplicate styles when an existing style can be reused.
+Do not rewrite the entire stylesheet to solve a local problem.
 
 Do not introduce a CSS framework unless explicitly requested.
 
-Do not rewrite the entire stylesheet for a single section.
+---
 
-11. JavaScript Rules
+## 13. JavaScript
 
 Preserve existing JavaScript behavior.
 
-Before changing HTML used by JavaScript, identify:
+Before changing HTML used by JavaScript, check:
 
-selectors
+- selectors
+- IDs
+- classes
+- `data-*` attributes
+- event listeners
+- animation hooks
+- modal hooks
+- navigation hooks
 
-IDs
-
-classes
-
-data-* attributes
-
-event listeners
-
-animation hooks
+Existing interactions should continue to work after content replacement.
 
 Do not remove JavaScript-related attributes without checking their usage.
 
-Existing interactions should continue working after content replacement.
+---
 
-12. Images and Assets
+## 14. Images and Assets
 
-Every new image should have a clear purpose.
+Every image should have a defined purpose.
 
-Before creating or downloading an image:
+Before adding an image:
 
-Determine what the image represents.
+1. Determine what it represents.
+2. Check whether an official or real image exists.
+3. Use real imagery where appropriate.
+4. If generation is necessary, research the subject first.
+5. Maintain visual consistency with the website.
 
-Check whether an official/real image exists.
+Generated images must not be presented as official photographs.
 
-Use a real image when appropriate.
+For real businesses and locations, do not invent architecture, buildings, signs, logos, interiors, furniture, streets, landmarks or branding.
 
-If generation is necessary, research the subject first.
+---
 
-Use real references when available.
+## 15. Food and Product Images
 
-Maintain visual consistency with the rest of the website.
+For restaurant or product websites, research the actual item before generating imagery.
 
-Generated imagery should not accidentally be presented as an official photograph.
+For food, verify when possible:
 
-13. Real Locations and Businesses
-
-When creating visual content for a real business or location:
-
-Do not invent:
-
-buildings
-
-signs
-
-logos
-
-architecture
-
-interiors
-
-furniture
-
-landscapes
-
-streets
-
-landmarks
-
-business branding
-
-Use verified visual references.
-
-If the exact environment cannot be reproduced reliably, create an atmospheric interpretation without making unsupported factual claims.
-
-14. Food and Product Photography
-
-For restaurant or product websites, research the actual item before generating an image.
-
-For food, verify:
-
-exact dish name
-
-ingredients
-
-preparation
-
-presentation when available
+- exact dish name
+- ingredients
+- preparation
+- presentation
 
 For products, verify:
 
-model
+- exact model
+- dimensions
+- specifications
+- included accessories
+- actual appearance
 
-dimensions
+Do not invent product specifications or ingredients.
 
-specifications
+Generated imagery should be treated as a visual reconstruction when no suitable official image exists.
 
-included accessories
+---
 
-actual appearance
+## 16. Menu and Prices
 
-Do not add invented ingredients or product features.
+Use current verified information.
 
-When a generated image is used because no suitable official image exists, it should function as a visual reconstruction.
+Prefer the original official menu names.
 
-Maintain consistency across the entire image series.
+For translations:
 
-15. Menu and Pricing
-
-When creating menu content:
-
-Use current information.
-
-Prefer exact original menu names when available.
-
-For translations, preserve important culinary terminology where appropriate.
+- preserve important culinary terminology
+- use natural language
+- do not translate proper names unnecessarily
 
 For prices:
 
-use official prices when verified
+- use official prices when verified
+- use `~€XX` for approximate prices
+- never present an estimate as an official price
 
-if only approximate prices are available, clearly indicate them
+---
 
-use ~€XX for approximate prices
-
-never present an estimate as an official price
-
-16. Multilingual Content
+## 17. Multilingual Content
 
 If the project supports multiple languages, every content change must be reflected in all supported languages.
 
 After changing content:
 
-check that every translation key exists
-
-check that all languages are updated
-
-check that the JSON structure remains valid
-
-check that language switching still works
-
-Do not leave old-brand text inside secondary languages.
-
-17. Translation Style
+- verify every translation key exists
+- verify all language files are updated
+- verify JSON syntax
+- verify language switching
+- verify no donor content remains in secondary languages
 
 Translations should sound natural to native speakers.
 
-Do not translate word-for-word when this produces unnatural language.
+Do not translate word-for-word when that creates unnatural language.
 
-Preserve proper names, product names, culinary terms and geographic names when appropriate.
+---
 
-18. Contact Information
+## 18. Contact Information
 
-Replace all source-project contact information.
+All donor contact information must be replaced.
+
+Check the entire repository for:
+
+- phone numbers
+- email addresses
+- domains
+- addresses
+- map links
+- reservation links
+- social media
+- external services
+- business names
+
+Search globally:
+
+```bash
+git grep -i "old-domain"
+git grep -i "old-business-name"
+git grep -i "old-email"
+```
+
+No donor contact information should remain in the final project.
+
+---
+
+## 19. SEO
+
+SEO should be adapted after the main content is established.
 
 Check:
 
-phone
+- `<title>`
+- meta description
+- canonical
+- Open Graph metadata
+- structured data
+- semantic headings
+- image `alt` attributes
+- internal links
+- sitemap
+- robots.txt
 
-email
+SEO content must reflect verified information.
 
-website
+Avoid keyword stuffing.
 
-address
+---
 
-Google Maps
-
-reservation links
-
-social media
-
-external services
-
-Search the entire repository for old information.
-
-No source-project contact information should remain in the final website.
-
-19. SEO
-
-Adapt SEO after the core content is established.
-
-Check:
-
-<title>
-
-meta description
-
-canonical if present
-
-Open Graph metadata if present
-
-structured data if present
-
-semantic headings
-
-image alt attributes
-
-internal links
-
-Do not over-optimize or stuff keywords.
-
-SEO content must reflect verified business information.
-
-20. Responsive Design
+## 20. Responsive Design
 
 Every major change must be considered for:
 
-desktop
-
-tablet
-
-mobile
+- desktop
+- tablet
+- mobile
 
 Pay particular attention to:
 
-hero image cropping
+- hero image cropping
+- typography
+- long translations
+- buttons
+- navigation
+- galleries
+- modals
+- image aspect ratios
+- section spacing
 
-typography
+Preserve the donor's responsive system unless there is a clear reason to change it.
 
-long translations
+---
 
-buttons
-
-navigation
-
-galleries
-
-modals
-
-image aspect ratios
-
-section spacing
-
-Preserve the existing responsive system.
-
-21. Animations
+## 21. Animations
 
 Preserve existing:
 
-scroll animations
+- scroll animations
+- reveal animations
+- image transitions
+- hover states
+- modal transitions
+- gallery movement
+- parallax effects
+- section transitions
 
-reveal animations
-
-image transitions
-
-hover states
-
-modal transitions
-
-gallery movement
-
-parallax effects
-
-section transitions
-
-Do not replace animation logic unless necessary.
+Do not replace animation logic unless required.
 
 After changing animated content, verify that the animation still works.
 
-22. Asset Cleanup
+---
 
-Do not delete old files simply because they are no longer visible.
+## 22. Asset Cleanup
+
+Do not delete donor assets simply because they are no longer visible.
 
 Before deleting an asset:
 
+```bash
 git grep "filename.ext"
+```
 
 Confirm that there are no remaining references.
 
-Then remove the asset.
+Then remove it.
 
 After cleanup:
 
+```bash
 git status
+```
 
-Check that only intended files changed.
+Review the changed files carefully.
 
-23. Testing After Each Section
+---
 
-After completing a section, check:
+## 23. Testing
 
-page loads
+After every meaningful change, verify:
 
-images load
+- page loads
+- images load
+- links work
+- language switching works
+- animations work
+- mobile layout works
+- desktop layout works
+- no obvious console errors
+- no broken asset references
 
-links work
+Do not wait until the end of the project to discover problems.
 
-language switching works
+---
 
-animations work
-
-mobile layout works
-
-desktop layout works
-
-no obvious console errors
-
-no broken asset references
-
-Do not wait until the end of the project to test everything.
-
-24. Git Workflow
+## 24. Git Workflow
 
 Use small, logical commits.
 
 Before committing:
 
+```bash
 git status
 git diff --stat
 git diff
-
-For new files:
-
-git status
-
-Review deleted files carefully.
+```
 
 Example:
 
+```bash
 git add .
-git commit -m "feat: adapt hero for new brand"
+git commit -m "feat: adapt hero for new business"
 git push origin main
+```
 
 Good commit messages describe the actual change.
 
 Examples:
 
+```text
 feat: adapt hero content
 feat: replace restaurant imagery
 feat: update menu content
 feat: add multilingual menu translations
 fix: restore mobile navigation
 fix: correct image paths
+docs: update project documentation
+```
 
-Avoid commits containing unrelated changes.
+Avoid unrelated changes in the same commit.
 
-25. Deployment
+---
 
-Deploy only after the current work has been reviewed.
+## 25. Deployment
 
-Before pushing:
+The new project must have an independent deployment.
 
+Typical deployment may use:
+
+- GitHub Pages
+- another static hosting provider
+- a custom hosting environment
+
+Before deployment:
+
+```bash
 git status
 git diff --stat
+```
 
 Confirm:
 
-no unintended files changed
-
-no old-brand references remain
-
-no broken asset paths
-
-translations are complete
-
-important links are correct
-
-Then commit and push.
+- no unintended files changed
+- no donor references remain
+- no broken asset paths
+- translations are complete
+- important links are correct
 
 After deployment:
 
-wait for the hosting platform
+1. Open the live website.
+2. Perform a hard refresh.
+3. Check desktop.
+4. Check mobile.
+5. Check language switching.
+6. Check navigation.
+7. Check important CTAs.
+8. Check images.
+9. Check major animations.
 
-open the live website
+---
 
-perform a hard refresh
+## 26. Deployment Credentials
 
-check desktop
+Never copy deployment credentials from the donor project.
 
-check mobile
+Do not reuse:
 
-check language switching
+- SSH keys
+- access tokens
+- API keys
+- deployment secrets
+- environment secrets
+- hosting credentials
 
-check navigation
+Configure new credentials for the new project.
 
-check important CTAs
+Credentials must never be committed to Git.
 
-check images
+---
 
-check major animations
+## 27. Final Pre-Launch Checklist
 
-26. Final Pre-Launch Audit
+### Brand
 
-Brand
+- correct brand name
+- correct logo
+- correct colors
+- correct typography
+- no donor branding
 
-correct brand name
+### Content
 
-correct logo
+- no placeholders
+- no obsolete information
+- no invented facts
+- correct business information
 
-correct colors
+### Images
 
-correct typography
+- all images load
+- correct image paths
+- consistent visual style
+- no accidental donor imagery
 
-no source-brand references
+### Links
 
-Content
+- navigation works
+- CTAs work
+- phone links work
+- maps work
+- reservation links work
+- external links work
+- no donor-domain links remain
 
-no placeholder content
+### Languages
 
-no obsolete information
+- all translations exist
+- no missing keys
+- no donor content
+- language switcher works
 
-no invented facts
+### Responsive
 
-correct business information
+- desktop
+- tablet
+- mobile
 
-Images
+### Accessibility
 
-all images load
+- semantic headings
+- meaningful button labels
+- meaningful link labels
+- image alt text
+- keyboard navigation
+- modal accessibility
+- focus behavior
 
-correct image paths
+### SEO
 
-consistent visual style
+- title
+- meta description
+- headings
+- canonical
+- Open Graph
+- structured data
+- image alt text
+- sitemap
+- robots.txt
 
-no accidental source-project images
+---
 
-Links
-
-navigation works
-
-CTAs work
-
-phone links work
-
-maps work
-
-external links work
-
-no old-domain links
-
-Languages
-
-all translations exist
-
-no missing keys
-
-no old content
-
-language switcher works
-
-Responsive
-
-desktop
-
-tablet
-
-mobile
-
-Accessibility
-
-semantic headings
-
-button labels
-
-link labels
-
-image alt text
-
-keyboard navigation
-
-modal accessibility
-
-focus behavior
-
-SEO
-
-title
-
-meta description
-
-headings
-
-canonical
-
-Open Graph
-
-structured data
-
-image alt text
-
-27. AI-Assisted Development
+## 28. AI-Assisted Development
 
 When working with an AI coding assistant:
 
-inspect the relevant files
+1. Read `AGENTS.md`.
+2. Read `README.md`.
+3. Inspect the relevant files.
+4. Understand the existing implementation.
+5. Identify dependencies.
+6. Research required information.
+7. Verify factual information.
+8. Make the smallest reasonable change.
+9. Test the result.
+10. Review the changes.
+11. Commit the change.
+12. Continue with the next logical section.
 
-understand the existing implementation
+If the user requests only analysis:
 
-identify dependencies
+> Do not modify files.
 
-research required information
+If the user requests only one section:
 
-make the smallest reasonable change
+> Do not modify unrelated sections.
 
-verify the result
+If information is uncertain:
 
-move to the next requested step
+> Research or ask. Do not invent.
 
-If the user requests only analysis, do not modify files.
+---
 
-If the user requests only one section, do not modify unrelated sections.
+## 29. Relationship Between README.md and AGENTS.md
 
-If information is uncertain, research or ask rather than invent.
+`README.md` describes the project and its development workflow.
 
-28. Golden Rule
+`AGENTS.md` defines the rules that must be followed when modifying the project.
+
+They complement each other.
+
+`README.md` should explain:
+
+- what the project is
+- how it is structured
+- how it is created
+- how it is developed
+- how it is tested
+- how it is deployed
+
+`AGENTS.md` should define:
+
+- mandatory development rules
+- donor handling rules
+- content verification rules
+- Git rules
+- asset rules
+- AI behavior
+- safety constraints
+- pre-launch requirements
+
+Do not duplicate unnecessary instructions between the two files.
+
+---
+
+## 30. Golden Rule
 
 The project should evolve, not be rebuilt.
 
-Preserve the existing architecture.
+The donor provides the foundation.
+
+The new project provides the new identity.
+
+Preserve working architecture.
 
 Research before writing.
 
@@ -800,15 +804,28 @@ Change one logical section at a time.
 
 Test after every meaningful change.
 
+Keep the new project independent from the donor.
+
 Keep commits small and understandable.
 
 Preferred workflow:
 
-Understand
-→ Research
-→ Verify
-→ Adapt
-→ Test
-→ Review
-→ Commit
-→ Continue
+```text
+DONOR
+  ↓
+UNDERSTAND
+  ↓
+RESEARCH
+  ↓
+VERIFY
+  ↓
+ADAPT
+  ↓
+TEST
+  ↓
+REVIEW
+  ↓
+COMMIT
+  ↓
+CONTINUE
+```
