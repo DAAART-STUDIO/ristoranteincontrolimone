@@ -17,15 +17,15 @@
   },
   
   "hero": {
-    "titlePrefix": "Un tavolo sopra",
-    "titleLake": "il Lago",
+    "titlePrefix": "Un tavolo con vista",
+    "titleLake": "sul Lago",
     "titleGarda": "di Garda",
-    "eyebrow": "Lounge e Ristorante",
-    "title": "Un tavolo sopra il Lago di Garda.",
-    "location": "Limone sul Garda · Lago di Garda · Italia",
-    "description": "Un luogo dove la cucina italiana, l'ospitalità e la bellezza del Lago di Garda si incontrano.",
+    "eyebrow": "Ristorante • Pizza",
+    "title": "Un tavolo con vista sul Lago di Garda.",
+    "location": "Incontro · Limone sul Garda · Italia",
+    "description": "Cucina italiana, pasta fatta in casa, pizza e i sapori del lago, serviti su una terrazza panoramica con vista su Limone sul Garda.",
     "primaryCta": "Prenota un tavolo",
-    "secondaryCta": "Scopri Al Buongusto",
+    "secondaryCta": "Scopri Incontro",
     "scroll": "Scopri"
   },
   

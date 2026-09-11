@@ -90,79 +90,83 @@
 /* ─────────────────────────────────────────────────────────────
    BRAND + LOGO
    ──────────────────────────────────────────────────────────── */
-  .brand {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    flex-shrink: 0;
+.brand {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-height: 48px;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  isolation: isolate;
+}
+/* logo mark */
+.brand__logo {
+  position: absolute;
+  left: -33px;
+  top: 50%;
+  width: 34px;
+  height: 50px;
+  transform: translateY(-50%);
+  color: currentColor;
+  opacity: 0.75;
+  pointer-events: none;
+  z-index: 0;
+  transition:
+    opacity var(--dur-med) var(--ease-smooth),
+    transform var(--dur-med) var(--ease-smooth);
+}
+.brand__logo svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+/* text wrapper */
+.brand__text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+  padding-left: 3px;
+}
+/* main name */
+.brand__name {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  text-transform: uppercase;
+}
 
-    height: 42px;
-    padding-left: 0;
-
-    color: inherit;
-    font-size: 1.05rem;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-    line-height: 1;
-    text-transform: uppercase;
-
-    isolation: isolate;
-  }
-  
-  /* logo decor */
-  .brand__logo {
-    position: absolute;
-    left: -5px;
-    top: 92%;
-    width: 140px;
-    height: auto;
-    aspect-ratio: 341.28 / 82.28;
-    transform: translateY(-50%);
-    color: currentColor;
-    opacity: 0.55;
-    z-index: -1;
-    pointer-events: none;
-    transition:
-      opacity var(--dur-med) var(--ease-smooth),
-      transform var(--dur-med) var(--ease-smooth);
-  }
-  .brand__logo svg {
-    display: block;
-    width: 100%;
-    height: 100%;
-    fill: currentColor;
-  }
-  .brand__logo .cls-1 {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 1.4;
-    stroke-miterlimit: 10;
-  }
-  /* logo TEXT */
-  .brand__name {
-    position: relative;
-    z-index: 2;
-    font-family: var(--font-display);
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    line-height: 1;
-    text-transform: uppercase;
-  }
-  
-  /* hover */
-  .brand:hover {
-    opacity: 1;
-  }
-  
-  .brand:hover .brand__logo {
-    opacity: 0.72;
-
-    transform:
-      translateY(-50%)
-      translateX(4px)
-      scale(1.03);
-  }
-
+/* subtitle */
+.brand__subtitle {
+  display: block;
+  margin-top: 5px;
+  font-family: var(--font-body);
+  font-size: 0.55rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+/* hover */
+.brand:hover .brand__logo {
+  opacity: 1;
+  transform:
+    translateY(-50%)
+    translateX(3px);
+}
+.brand:hover .brand__name,
+.brand:hover .brand__subtitle {
+  opacity: 1;
+}
 
 /* ─────────────────────────────────────────────────────────────
    DESKTOP NAV
@@ -440,9 +444,9 @@
     font-size: 0.95rem;
   }
   .brand__logo {
-    left: -1px;
+    left: 70px;
     width: 135px;
-    height: 33px;
+    height: 44px;
   }
 }
 

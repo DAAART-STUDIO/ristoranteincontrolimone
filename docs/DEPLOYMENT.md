@@ -2,47 +2,243 @@
 
 ## Deployment Model
 
-Bastione is a static website: HTML, CSS, and vanilla JavaScript ES modules.
+Ristorante Incontro Limone is a static website built with HTML, CSS and vanilla JavaScript ES modules.
 
-There is no build step. The production server only needs to serve the project files over HTTPS.
+There is no build step.
+
+The website can be deployed by serving the project files directly over HTTPS.
+
+---
 
 ## Repository
 
 ```text
-https://github.com/DAAART-STUDIO/bastione
+https://github.com/DAAART-STUDIO/ristoranteincontrolimone
 ```
 
-Branch: `main` is deployed as-is.
+Production/deployment branch:
+
+```text
+main
+```
+
+The `main` branch is the current deployment source.
+
+---
 
 ## Hosting — GitHub Pages
 
-The site is hosted on GitHub Pages, served directly from the `main` branch.
+The project is configured for static deployment through GitHub Pages.
 
-1. Repository **Settings → Pages**.
-2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-3. **Branch:** `main`, folder **`/ (root)`** → **Save**.
-4. GitHub Pages requires the repository to stay **public** on the Free plan — Pages is disabled the moment a repo goes private, unless upgraded to GitHub Pro/Team/Enterprise.
-5. Live URL:
+The intended GitHub Pages configuration is:
 
-   ```text
-   https://daaart-studio.github.io/bastione/
-   ```
+1. Open the repository **Settings → Pages**.
 
-6. A fresh push to `main` triggers an automatic rebuild (usually live within 1–2 minutes).
+2. Under **Build and deployment → Source**, select:
 
-### Custom domain (later)
+   **Deploy from a branch**
 
-When `bastione.eu` is ready to point here:
+3. Configure:
 
-1. Add a `CNAME` file at the repo root containing `bastione.eu`.
-2. At the DNS provider, add either an `A` record set to GitHub Pages' IPs or a `CNAME` record pointing to `daaart-studio.github.io`.
-3. Repository **Settings → Pages → Custom domain** → enter `bastione.eu` → enable **Enforce HTTPS**.
-4. Update `robots.txt` and `sitemap.xml` to the new domain, and `site.webmanifest`'s `start_url`/`scope` can stay relative (`./`).
+   **Branch:** `main`
+   **Folder:** `/ (root)`
 
-## Project-subpath constraint
+4. Save the configuration.
 
-Because the site is served from `https://daaart-studio.github.io/bastione/` (a subpath, not a domain root), every asset reference must stay **relative** — no leading `/`. This already holds throughout `index.html`, `css/`, and `js/`. Keep it that way; a leading-slash path will 404 under the project subpath (though it would resolve once/if a custom domain at the root is attached).
+5. The project is served from the repository's GitHub Pages URL.
 
-## Privacy note
+Current project URL:
 
-GitHub Pages output is plain static HTML/CSS/JS. Anyone visiting the live site can view it via "View Page Source" regardless of the repository's visibility — making the repo private only hides the Git history and source browsing on GitHub, not the deployed markup itself.
+```text
+https://daaart-studio.github.io/ristoranteincontrolimone/
+```
+
+6. A new push to `main` triggers a GitHub Pages deployment.
+
+Deployment may take some time to become available after a new push.
+
+---
+
+## Project-Subpath Constraint
+
+The current GitHub Pages deployment uses the project subpath:
+
+```text
+https://daaart-studio.github.io/ristoranteincontrolimone/
+```
+
+The website therefore does not run at the domain root.
+
+Asset and internal resource references should remain **relative**.
+
+Preferred:
+
+```html
+<link rel="stylesheet" href="css/base.css">
+<script type="module" src="js/app.js"></script>
+<img src="assets/images/example.webp" alt="">
+```
+
+Avoid root-relative paths:
+
+```html
+<link rel="stylesheet" href="/css/base.css">
+<script type="module" src="/js/app.js"></script>
+<img src="/assets/images/example.webp" alt="">
+```
+
+Root-relative paths resolve from the domain root and can result in broken resources when the project is deployed under `/ristoranteincontrolimone/`.
+
+Keep paths compatible with the current GitHub Pages project-subpath deployment.
+
+---
+
+## Custom Domain
+
+A custom domain may be configured when the production domain is ready.
+
+The custom domain should be configured through:
+
+**Repository → Settings → Pages → Custom domain**
+
+DNS records must also be configured at the domain provider according to GitHub Pages requirements.
+
+When a custom domain becomes the production URL, update all domain-dependent resources, including:
+
+* `robots.txt`
+* `sitemap.xml`
+* canonical URL
+* Open Graph URLs
+* structured data
+* `site.webmanifest`
+* any absolute URLs used by the website
+
+HTTPS should be enabled after the custom domain has been correctly configured.
+
+---
+
+## Deployment Checklist
+
+Before deploying changes to `main`, verify:
+
+### Content
+
+* Restaurant name
+* Address
+* Telephone
+* Email
+* Opening hours
+* Menu information
+* Reservation information
+* Location information
+
+All restaurant-specific information must be verified before publication.
+
+### Technical
+
+* `index.html` loads correctly
+* CSS files load correctly
+* JavaScript modules load correctly
+* JSON files load correctly
+* Images load correctly
+* SVG assets load correctly
+* Navigation works
+* Mobile navigation works
+* Reservation interface works
+* Language switching works
+* Theme switching works
+* Animations work
+* Responsive layouts work
+
+### SEO
+
+Verify:
+
+* page title
+* meta description
+* canonical URL
+* Open Graph metadata
+* structured data
+* `robots.txt`
+* `sitemap.xml`
+* favicon
+* web manifest
+
+All production metadata must correspond to Ristorante Incontro Limone.
+
+---
+
+## Local Verification
+
+Because the project uses JavaScript ES Modules, do not open `index.html` directly using `file://`.
+
+Run a local HTTP server before deployment.
+
+### Python
+
+```bash
+cd ristoranteincontrolimone
+python -m http.server 8002
+```
+
+Then open:
+
+```text
+http://localhost:8002
+```
+
+Verify the website locally before pushing changes to `main`.
+
+---
+
+## Production Verification
+
+After pushing changes to `main`:
+
+1. Wait for GitHub Pages deployment to complete.
+2. Open the live website.
+3. Verify the homepage.
+4. Test navigation.
+5. Test mobile behavior.
+6. Test language switching.
+7. Test theme switching.
+8. Test interactive sections.
+9. Check the browser console for JavaScript errors.
+10. Check the Network panel for failed resources or `404` responses.
+
+---
+
+## Production Branch Policy
+
+The `main` branch is the deployment branch.
+
+Development work should be tested locally before being pushed to `main`.
+
+Avoid committing unfinished or experimental functionality directly to the deployment branch unless the change is intentionally part of the current development state.
+
+---
+
+## Deployment Integrity
+
+The deployment must preserve the existing project architecture.
+
+Do not introduce a build process, frontend framework or deployment dependency unless explicitly required.
+
+Before deployment, verify that:
+
+* relative paths remain valid
+* JavaScript ES Modules load correctly
+* localized JSON files are available
+* static assets are accessible
+* responsive behavior remains intact
+* existing interactions continue to work
+
+---
+
+## Privacy Note
+
+GitHub Pages serves the frontend as static web resources.
+
+Visitors can inspect the deployed HTML, CSS, JavaScript and other publicly served assets through browser developer tools or page source.
+
+Repository visibility controls access to the GitHub repository itself and does not make already deployed frontend resources private.

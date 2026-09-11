@@ -17,15 +17,15 @@
   },
 
   "hero": {
-    "titlePrefix": "A table above",
+    "titlePrefix": "A table overlooking",
     "titleLake": "Lake",
     "titleGarda": "Garda",
-    "eyebrow": "Lounge & Restaurant",
-    "title": "A table above Lake Garda.",
-    "location": "Limone sul Garda · Lake Garda · Italy",
-    "description": "A place where Italian cuisine, hospitality and the beauty of Lake Garda come together.",
+    "eyebrow": "Ristorante • Pizza",
+    "title": "A table overlooking Lake Garda.",
+    "location": "Incontro · Limone sul Garda · Italy",
+    "description": "Italian cuisine, handmade pasta, pizza and the flavours of the lake, served on a panoramic terrace overlooking Limone sul Garda.",
     "primaryCta": "Reserve a table",
-    "secondaryCta": "Discover Al Buongusto",
+    "secondaryCta": "Discover Incontro",
     "scroll": "Discover"
   },
 

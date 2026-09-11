@@ -17,15 +17,15 @@
   },
   
   "hero": {
-    "titlePrefix": "Ein Tisch",
-    "titleLake": "über dem",
+    "titlePrefix": "Ein Tisch mit Blick auf",
+    "titleLake": "den",
     "titleGarda": "Gardasee",
-    "eyebrow": "Lounge und Restaurant",
-    "title": "Ein Tisch über dem Gardasee.",
-    "location": "Limone sul Garda · Gardasee · Italien",
-    "description": "Ein Ort, an dem italienische Küche, Gastfreundschaft und die Schönheit des Gardasees zusammenkommen.",
+    "eyebrow": "Ristorante • Pizza",
+    "title": "Ein Tisch mit Blick auf den Gardasee.",
+    "location": "Incontro · Limone sul Garda · Italien",
+    "description": "Italienische Küche, hausgemachte Pasta, Pizza und die Aromen des Sees – serviert auf einer Panoramaterrasse mit Blick auf Limone sul Garda.",
     "primaryCta": "Tisch reservieren",
-    "secondaryCta": "Al Buongusto entdecken",
+    "secondaryCta": "Incontro entdecken",
     "scroll": "Entdecken"
   },
   

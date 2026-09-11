@@ -326,6 +326,8 @@
        EYEBROW
        ───────────────────────────────────────────────────────── */
     .hero__eyebrow {
+      position: absolute;
+      top: -85%;
       margin-inline: auto;
       font-size: 0.62rem;
       letter-spacing: 0.18em;
@@ -334,6 +336,8 @@
        TITLE
        ───────────────────────────────────────────────────────── */
     .hero__title {
+      position: absolute;
+      top: -70%;
       max-width: 100%;
       margin-top: 1.15rem;
       font-size: clamp(3rem, 13vw, 4.6rem);
@@ -369,6 +373,8 @@
        ACTIONS
        ───────────────────────────────────────────────────────── */
     .hero__actions {
+      position: absolute;
+      bottom: -60%;
       display: grid;
       grid-template-columns: 1fr;
       width: min(100%, 330px);
