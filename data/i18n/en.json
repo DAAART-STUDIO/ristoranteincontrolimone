@@ -1,8 +1,8 @@
 {
 
   "meta": {
-    "title": "Bastione — Lounge & Restaurant | Riva del Garda",
-    "description": "Bastione Lounge & Restaurant above Lake Garda in Riva del Garda, Trentino."
+    "title": "Ristorante Incontro in Limone sul Garda",
+    "description": "Ristorante Incontro in Limone sul Garda: Italian cuisine, Lake Garda specialties, and an authentic atmosphere in the heart of Limone sul Garda."
   },
 
   "navigation": {
@@ -30,22 +30,20 @@
   },
 
   "view": {
-    "eyebrow": "The Atmosphere",
-    "explore": "Explore",
-    "title": "Two sides of Al Buongusto",
-    "description": "From a sun-filled garden beneath the lemon trees to intimate evenings at the table — discover the atmosphere of Hostaria Al Buongusto.",
-    "lakeCaption": "The Garden · Limone sul Garda",
-    "lakeDetail": "Among lemon trees and stone terraces",
-    "cityCaption": "The Evening · Al Buongusto",
-    "cityDetail": "Dinner · Wine · Limone sul Garda",
-    "locationLabel": "The location",
-    "locationText": "In the heart of Limone sul Garda, surrounded by the character and beauty of Lake Garda."
+    "eyebrow": "The Incontro Experience",
+    "title": "Dining with a view",
+    "description": "A panoramic terrace, the beauty of Lake Garda and the pleasure of Italian cuisine come together at Incontro.",
+    "lakeCaption": "The Terrace · Lake Garda",
+    "lakeDetail": "A panoramic setting overlooking Limone sul Garda",
+    "cityCaption": "The Table · Incontro",
+    "cityDetail": "Italian cuisine · Pizza · Wine",
+    "explore": "Explore"
   },
 
   "experience": {
-    "eyebrow": "A place with roots",
-    "title": "From the lemon gardens of Limone to Al Buongusto",
-    "text": "Hostaria Al Buongusto is set within the walls of an ancient limonaia — the traditional lemon gardens that shaped the identity of Limone sul Garda. Built into the terraces between the lake and the mountain, these historic gardens protected citrus trees through the winter and made Limone one of Europe's most distinctive lemon-growing villages. Today, the old stone walls, terraces and surrounding village continue that story in a new way: through food, wine and hospitality.",
+  "eyebrow": "A place with roots",
+  "title": "A historic place in the heart of Limone",
+  "text": "The story of Incontro is rooted in the history of Limone sul Garda. Set among the historic terraces of the village, this place connects the character of the past with the pleasure of Italian dining today. The lake, the mountains and the traditional architecture of Limone create a setting where history remains part of the experience — alongside good food, wine and hospitality.",
     "year": "1720",
     "nodes": {
       "way01": {

@@ -1,8 +1,8 @@
 {
   
   "meta": {
-    "title": "Bastione — Lounge e Ristorante | Riva del Garda",
-    "description": "Bastione Lounge e Ristorante sopra il Lago di Garda a Riva del Garda, Trentino."
+    "title": "Ristorante Incontro a Limone sul Garda",
+    "description": "Ristorante Incontro a Limone sul Garda: cucina italiana, specialità del Lago di Garda e atmosfera autentica nel cuore di Limone sul Garda."
   },
 
   "navigation": {
@@ -30,22 +30,20 @@
   },
   
   "view": {
-    "eyebrow": "L'Atmosfera",
-    "explore": "Scopri",
-    "title": "Due anime di Al Buongusto",
-    "description": "Dal giardino immerso nel verde dei limoni alle serate intime a tavola — scopri l'atmosfera di Hostaria Al Buongusto.",
-    "lakeCaption": "Il Giardino · Limone sul Garda",
-    "lakeDetail": "Tra limoni e terrazze in pietra",
-    "cityCaption": "La Sera · Al Buongusto",
-    "cityDetail": "Cena · Vino · Limone sul Garda",
-    "locationLabel": "Dove siamo",
-    "locationText": "Nel cuore di Limone sul Garda, tra il carattere e la bellezza del Lago di Garda."
+    "eyebrow": "L'esperienza Incontro",
+    "title": "A tavola con vista",
+    "description": "Una terrazza panoramica, la bellezza del Lago di Garda e il piacere della cucina italiana si incontrano da Incontro.",
+    "lakeCaption": "La Terrazza · Lago di Garda",
+    "lakeDetail": "Una vista panoramica su Limone sul Garda",
+    "cityCaption": "La Tavola · Incontro",
+    "cityDetail": "Cucina italiana · Pizza · Vino",
+    "explore": "Scopri"
   },
 
   "experience": {
-    "eyebrow": "Un luogo con radici profonde",
-    "title": "Dalle antiche limonaie di Limone ad Al Buongusto",
-    "text": "Hostaria Al Buongusto nasce tra le mura di un'antica limonaia — i tradizionali giardini di limoni che hanno plasmato l'identità di Limone sul Garda. Costruite sui terrazzamenti tra il lago e la montagna, queste storiche limonaie proteggevano gli agrumi durante l'inverno e hanno reso Limone uno dei borghi di coltivazione dei limoni più caratteristici d'Europa. Oggi, gli antichi muri in pietra, i terrazzamenti e il borgo che li circonda continuano questa storia in un modo nuovo: attraverso la cucina, il vino e l'ospitalità.",
+    "eyebrow": "Un luogo dalle sue radici",
+    "title": "Un luogo storico nel cuore di Limone",
+    "text": "La storia di Incontro affonda le sue radici nella storia di Limone sul Garda. Immerso tra le antiche terrazze del paese, questo luogo unisce il carattere del passato al piacere della tavola italiana di oggi. Il lago, le montagne e l'architettura tradizionale di Limone fanno da cornice a un'esperienza in cui la storia rimane parte del luogo, insieme alla buona cucina, al vino e all'ospitalità.",
     "year": "1720",
     "nodes": {
       "way01": {

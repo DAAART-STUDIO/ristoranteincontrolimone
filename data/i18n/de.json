@@ -1,8 +1,8 @@
 {
     
   "meta": {
-    "title": "Bastione — Lounge und Restaurant | Riva del Garda",
-    "description": "Bastione Lounge und Restaurant über dem Gardasee in Riva del Garda, Trentino."
+    "title": "Restaurant Incontro in Limone sul Garda",
+    "description": "Restaurant Incontro in Limone sul Garda: Italienische Küche, Spezialitäten vom Gardasee und ein authentisches Ambiente im Herzen von Limone sul Garda."
   },
 
   "navigation": {
@@ -30,22 +30,20 @@
   },
   
   "view": {
-    "eyebrow": "Die Atmosphäre",
-    "explore": "Entdecken",
-    "title": "Zwei Seiten von Al Buongusto",
-    "description": "Vom sonnigen Garten unter Zitronenbäumen bis zu intimen Abenden am Tisch – entdecken Sie die Atmosphäre der Hostaria Al Buongusto.",
-    "lakeCaption": "Der Garten · Limone sul Garda",
-    "lakeDetail": "Zwischen Zitronenbäumen und Steinterrassen",
-    "cityCaption": "Der Abend · Al Buongusto",
-    "cityDetail": "Dinner · Wein · Limone sul Garda",
-    "locationLabel": "Wo wir sind",
-    "locationText": "Im Herzen von Limone sul Garda, umgeben vom Charakter und der Schönheit des Gardasees."
+    "eyebrow": "Das Incontro-Erlebnis",
+    "title": "Genießen mit Aussicht",
+    "description": "Eine Panoramaterrasse, die Schönheit des Gardasees und die Freude an italienischer Küche verbinden sich bei Incontro.",
+    "lakeCaption": "Die Terrasse · Gardasee",
+    "lakeDetail": "Panoramablick über Limone sul Garda",
+    "cityCaption": "Die Tafel · Incontro",
+    "cityDetail": "Italienische Küche · Pizza · Wein",
+    "explore": "Entdecken"
   },
 
   "experience": {
     "eyebrow": "Ein Ort mit Geschichte",
-    "title": "Von den Zitronengärten von Limone zum Al Buongusto",
-    "text": "Die Hostaria Al Buongusto befindet sich in den Mauern einer alten Limonaia – der traditionellen Zitronengärten, die die Identität von Limone sul Garda geprägt haben. In die Terrassen zwischen See und Berg gebaut, schützten diese historischen Gärten die Zitrusbäume im Winter und machten Limone zu einem der charakteristischsten Zitronenanbauorte Europas. Heute erzählen die alten Steinmauern, Terrassen und das umliegende Dorf diese Geschichte auf neue Weise weiter: durch Küche, Wein und Gastfreundschaft.",
+    "title": "Ein historischer Ort im Herzen von Limone",
+    "text": "Die Geschichte von Incontro ist eng mit der Geschichte von Limone sul Garda verbunden. Zwischen den historischen Terrassen des Ortes gelegen, verbindet dieser Ort den Charakter der Vergangenheit mit dem Genuss der italienischen Küche von heute. Der See, die Berge und die traditionelle Architektur von Limone bilden den Rahmen für ein Erlebnis, bei dem die Geschichte Teil des Ortes bleibt – begleitet von gutem Essen, Wein und herzlicher Gastfreundschaft.",
     "year": "1720",
     "nodes": {
       "way01": {
