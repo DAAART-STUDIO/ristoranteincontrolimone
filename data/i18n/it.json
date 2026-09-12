@@ -243,14 +243,14 @@
   },
 
   "events": {
-    "eyebrow": "Eventi",
-    "title": "Rendilo speciale",
-    "description": "Cene romantiche, celebrazioni e momenti speciali nel cuore di Limone sul Garda.",
-    "cta": "Scopri gli eventi",
+    "eyebrow": "Momenti speciali",
+    "title": "Rendi il momento tutto tuo",
+    "description": "Da una cena romantica a una celebrazione in famiglia, Incontro è il luogo dove condividere momenti speciali con il Lago di Garda sullo sfondo.",
+    "cta": "Prenota il tuo momento",
     "types": {
-      "privateDinners": "Cene private",
-      "celebrations": "Celebrazioni",
-      "aperitivo": "Aperitivo speciale"
+      "romanticDinners": "Cene romantiche",
+      "familyCelebrations": "Celebrazioni in famiglia",
+      "specialOccasions": "Occasioni speciali"
     }
   },
 

@@ -243,14 +243,14 @@
   },
 
   "events": {
-    "eyebrow": "Events",
-    "title": "Machen Sie es zu Ihrem Moment",
-    "description": "Romantische Dinner, Feiern und besondere Momente im Herzen von Limone sul Garda.",
-    "cta": "Events entdecken",
+    "eyebrow": "Besondere Momente",
+    "title": "Machen Sie den Moment zu Ihrem",
+    "description": "Von einem romantischen Abendessen bis zu einer Familienfeier – Incontro ist ein Ort, an dem besondere Momente mit dem Gardasee als Kulisse geteilt werden.",
+    "cta": "Ihren Moment reservieren",
     "types": {
-      "privateDinners": "Private Dinner",
-      "celebrations": "Feiern",
-      "aperitivo": "Besonderer Aperitivo"
+      "romanticDinners": "Romantische Abendessen",
+      "familyCelebrations": "Familienfeiern",
+      "specialOccasions": "Besondere Anlässe"
     }
   },
 
