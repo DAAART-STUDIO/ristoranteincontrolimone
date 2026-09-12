@@ -264,13 +264,13 @@
   },
   
   "footer": {
-    "brandLabel": "HOSTARIA AL BUONGUSTO",
-    "brandTitle": "HOSTARIA",
-    "subtitle": "al Buongusto",
-    "phone": "+39 0365 388123",
-    "website": "albuongusto.com",
+    "brandLabel": "RISTORANTE PIZZA INCONTRO",
+    "brandTitle": "INCONTRO",
+    "subtitle": "Ristorante • Pizza",
+    "phone": "+39 392 2558721",
+    "website": "ristoranteincontrolimone.it",
     "followUs": "Seguici",
-    "legal": "Via Fontana 2 · 25010 Limone sul Garda BS · Italia. Ci trovi nel cuore di Limone: prenditi il tempo per esplorare il centro storico, le antiche limonaie e i percorsi lungo il lago. Da qui, il Lago di Garda è tutto da scoprire — a piedi, in bicicletta o in barca.",
+    "legal": "Via Caldogno, 1 · 25010 Limone sul Garda BS · Italia. Ristorante Pizza Incontro con una terrazza panoramica affacciata sul Lago di Garda, nel cuore di Limone sul Garda.",
     "facebook": "Facebook",
     "instagram": "Instagram",
     "google": "Google Maps",
@@ -283,20 +283,20 @@
   "reservation": {
     "eyebrow": "Prenotazioni",
     "title": "Prenota il tuo tavolo",
-    "description": "Scegli l'opzione che preferisci e contatta direttamente Hostaria Al Buongusto.",
+    "description": "Scegli la modalità più comoda per te e contatta direttamente Ristorante Pizza Incontro.",
     "close": "Chiudi",
     "phone": {
       "title": "Prenota per telefono",
       "description": "Chiamaci direttamente per prenotare il tuo tavolo."
     },
     "location": {
-      "title": "Dove trovarci",
-      "description": "Apri la nostra posizione su Google Maps e scopri come raggiungerci.",
-      "label": "Via Fontana 2 · Limone sul Garda"
+      "title": "Dove siamo",
+      "description": "Apri la nostra posizione su Google Maps e scopri come arrivare.",
+      "label": "Via Caldogno, 1 · Limone sul Garda"
     },
     "website": {
       "title": "Visita il nostro sito",
-      "description": "Scopri Hostaria Al Buongusto e organizza la tua visita."
+      "description": "Scopri Ristorante Pizza Incontro e organizza la tua visita."
     },
     "note": "Ti consigliamo di prenotare in anticipo, soprattutto per la sera e per le occasioni speciali."
   }

@@ -264,13 +264,13 @@
   },
 
   "footer": {
-    "brandLabel": "HOSTARIA AL BUONGUSTO",
-    "brandTitle": "HOSTARIA",
-    "subtitle": "al Buongusto",
-    "phone": "+39 0365 388123",
-    "website": "albuongusto.com",
+    "brandLabel": "RISTORANTE PIZZA INCONTRO",
+    "brandTitle": "INCONTRO",
+    "subtitle": "Cuisine · Pizza · Wine",
+    "phone": "+39 392 2558721",
+    "website": "ristoranteincontrolimone.it",
     "followUs": "Follow us",
-    "legal": "Via Fontana 2 · 25010 Limone sul Garda BS · Italy. Find us in the heart of Limone, then take your time to explore the old town, historic lemon houses and the lakeside paths. From here, Lake Garda is yours to discover — on foot, by bike or by boat.",
+    "legal": "Via Caldogno, 1 · 25010 Limone sul Garda BS · Italy. Ristorante Pizza Incontro with a panoramic terrace overlooking Lake Garda in the heart of Limone sul Garda.",
     "facebook": "Facebook",
     "instagram": "Instagram",
     "google": "Google Maps",
@@ -283,7 +283,7 @@
   "reservation": {
     "eyebrow": "Reservations",
     "title": "Reserve your table",
-    "description": "Choose the option that suits you best and get in touch with Hostaria Al Buongusto.",
+    "description": "Choose the way that is most convenient for you and contact Ristorante Pizza Incontro directly.",
     "close": "Close",
     "phone": {
       "title": "Reserve by phone",
@@ -292,11 +292,11 @@
     "location": {
       "title": "Find us",
       "description": "Open our location in Google Maps and get directions.",
-      "label": "Via Fontana 2 · Limone sul Garda"
+      "label": "Via Caldogno, 1 · Limone sul Garda"
     },
     "website": {
       "title": "Visit our website",
-      "description": "Discover Hostaria Al Buongusto and plan your visit."
+      "description": "Discover Ristorante Pizza Incontro and plan your visit."
     },
     "note": "We recommend booking in advance, especially for evenings and special occasions."
   }

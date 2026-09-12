@@ -264,13 +264,13 @@
   },
 
   "footer": {
-    "brandLabel": "HOSTARIA AL BUONGUSTO",
-    "brandTitle": "HOSTARIA",
-    "subtitle": "al Buongusto",
-    "phone": "+39 0365 388123",
-    "website": "albuongusto.com",
+    "brandLabel": "RISTORANTE PIZZA INCONTRO",
+    "brandTitle": "INCONTRO",
+    "subtitle": "Ristorante • Pizza",
+    "phone": "+39 392 2558721",
+    "website": "ristoranteincontrolimone.it",
     "followUs": "Folgen Sie uns",
-    "legal": "Via Fontana 2 · 25010 Limone sul Garda BS · Italien. Sie finden uns im Herzen von Limone – ideal, um die historische Altstadt, die alten Zitronenhaine und die Wege am See zu entdecken. Von hier aus lässt sich der Gardasee zu Fuß, mit dem Fahrrad oder per Boot erkunden.",
+    "legal": "Via Caldogno, 1 · 25010 Limone sul Garda BS · Italien. Ristorante Pizza Incontro mit einer Panoramaterrasse und Blick auf den Gardasee im Herzen von Limone sul Garda.",
     "facebook": "Facebook",
     "instagram": "Instagram",
     "google": "Google Maps",
@@ -283,22 +283,22 @@
   "reservation": {
     "eyebrow": "Reservierungen",
     "title": "Tisch reservieren",
-    "description": "Wählen Sie die für Sie passende Option und kontaktieren Sie Hostaria Al Buongusto direkt.",
+    "description": "Wählen Sie die für Sie bequemste Möglichkeit und kontaktieren Sie Ristorante Pizza Incontro direkt.",
     "close": "Schließen",
     "phone": {
       "title": "Telefonisch reservieren",
       "description": "Rufen Sie uns direkt an, um Ihren Tisch zu reservieren."
     },
     "location": {
-      "title": "So finden Sie uns",
+      "title": "Wo wir sind",
       "description": "Öffnen Sie unseren Standort in Google Maps und lassen Sie sich den Weg anzeigen.",
-      "label": "Via Fontana 2 · Limone sul Garda"
+      "label": "Via Caldogno, 1 · Limone sul Garda"
     },
     "website": {
       "title": "Unsere Website besuchen",
-      "description": "Entdecken Sie Hostaria Al Buongusto und planen Sie Ihren Besuch."
+      "description": "Entdecken Sie Ristorante Pizza Incontro und planen Sie Ihren Besuch."
     },
-    "note": "Wir empfehlen eine frühzeitige Reservierung, besonders am Abend und zu besonderen Anlässen."
+    "note": "Wir empfehlen, besonders für Abende und besondere Anlässe im Voraus zu reservieren."
   }
     
 }

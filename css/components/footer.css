@@ -55,9 +55,9 @@
 
   .footer-brand__crest {
     position: absolute;
-    left: -15px;
-    top: 95%;
-    width: 225px;
+    left: 50px;
+    top: 25%;
+    width: 300px;
     height: auto;
     aspect-ratio: 341.28 / 82.28;
     color: currentColor;
@@ -300,7 +300,12 @@
       min-height: auto;
     }
     .footer-brand__crest {
-      width: 180px;
+      width: 250px;
+      left: 80px;
+      top: 22px;
+    }
+    .footer-brand__title {
+      font-size: 1.75rem;
     }
   }
   /* =========================================================
