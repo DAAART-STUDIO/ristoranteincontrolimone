@@ -203,34 +203,34 @@
 
   "menu": {
     "eyebrow": "Menu Favourites",
-    "title": "Taste the moment",
+    "title": "A taste of Incontro.",
     "cta": "Explore the menu",
-    "note": "The menu changes with the seasons and market availability.",
+    "note": "A selection of dishes guests love at Incontro.",
     "items": {
       "01": {
-        "name": "Fassona Beef Tartare",
-        "description": "Piedmontese Fassona beef tartare with truffle, Grana and balsamic pearls.",
-        "price": "~€22"
+        "name": "Beef Tartare",
+        "description": "Beef tartare with Gorgonzola fondue and egg bottarga.",
+        "price": "€24"
       },
       "02": {
-        "name": "Fagottini with Grouper & Prawns",
-        "description": "Handmade fagottini filled with grouper and prawns, served with their bisque.",
-        "price": "~€20"
+        "name": "Risotto “Pila Vecia”",
+        "description": "Risotto with lemon, rosemary and raw scallop.",
+        "price": "€23"
       },
       "03": {
-        "name": "Spaghetti with Fresh Tuna & Bottarga",
-        "description": "Felicetti spaghetti with garlic, olive oil, chilli, sea-water tomatoes, fresh tuna and tuna bottarga.",
-        "price": "~€18"
+        "name": "Homemade Mezzelune",
+        "description": "Homemade mezzelune filled with prawns, garlic, olive oil and chilli.",
+        "price": "€23"
       },
       "04": {
-        "name": "Tagliata di Manzo",
-        "description": "Sliced beef with rocket, Grana and rosemary potatoes.",
-        "price": "~€26"
+        "name": "Pizza Lei",
+        "description": "Fior di latte, Cantabrian anchovies, burrata, baked tomatoes, grilled peppers, capers, garlic oil and oregano.",
+        "price": "€23"
       },
       "05": {
-        "name": "The Freshness of Lemon",
-        "description": "The house's signature lemon dessert, inspired by the freshness of Limone sul Garda.",
-        "price": "~€9"
+        "name": "Homemade Tiramisù",
+        "description": "A classic Italian tiramisù, prepared in-house.",
+        "price": "€10"
       }
     }
   },

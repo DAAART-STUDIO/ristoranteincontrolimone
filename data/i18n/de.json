@@ -202,35 +202,35 @@
   },
 
   "menu": {
-    "eyebrow": "Unsere Menüfavoriten",
-    "title": "Den Moment genießen",
+    "eyebrow": "Unsere Favoriten",
+    "title": "Der Geschmack von Incontro.",
     "cta": "Menü entdecken",
-    "note": "Das Menü wechselt mit den Jahreszeiten und je nach Verfügbarkeit der Zutaten.",
+    "note": "Eine Auswahl der Gerichte, die unsere Gäste besonders lieben.",
     "items": {
       "01": {
-        "name": "Fassona-Rindertatar",
-        "description": "Tatar vom piemontesischen Fassona-Rind mit Trüffel, Grana und Balsamico-Perlen.",
-        "price": "~€22"
+        "name": "Rindertatar",
+        "description": "Rindertatar mit Gorgonzola-Fondue und Eier-Bottarga.",
+        "price": "€24"
       },
       "02": {
-        "name": "Fagottini mit Zackenbarsch & Garnelen",
-        "description": "Hausgemachte Fagottini mit Zackenbarsch und Garnelen, serviert mit ihrer Bisque.",
-        "price": "~€20"
+        "name": "Risotto „Pila Vecia“",
+        "description": "Risotto mit Zitrone, Rosmarin und roher Jakobsmuschel.",
+        "price": "€23"
       },
       "03": {
-        "name": "Spaghetti mit frischem Thunfisch & Bottarga",
-        "description": "Felicetti-Spaghetti mit Knoblauch, Olivenöl, Chili, Kirschtomaten in Meerwasser, frischem Thunfisch und Thunfisch-Bottarga.",
-        "price": "~€18"
+        "name": "Hausgemachte Mezzelune",
+        "description": "Hausgemachte Mezzelune mit Garnelen, Knoblauch, Olivenöl und Chili.",
+        "price": "€23"
       },
       "04": {
-        "name": "Tagliata di Manzo",
-        "description": "Aufgeschnittenes Rindfleisch mit Rucola, Grana und Rosmarinkartoffeln.",
-        "price": "~€26"
+        "name": "Pizza Lei",
+        "description": "Fior di latte, Sardellen aus dem Kantabrischen Meer, Burrata, Ofentomaten, gegrillte Paprika, Kapern, Knoblauchöl und Oregano.",
+        "price": "€23"
       },
       "05": {
-        "name": "Die Frische von Limone",
-        "description": "Das hausgemachte Zitronendessert, inspiriert von der Frische von Limone sul Garda.",
-        "price": "~€9"
+        "name": "Hausgemachtes Tiramisù",
+        "description": "Klassisches italienisches Tiramisù, hausgemacht zubereitet.",
+        "price": "€10"
       }
     }
   },

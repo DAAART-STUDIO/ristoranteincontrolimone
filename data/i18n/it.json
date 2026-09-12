@@ -202,35 +202,35 @@
   },
 
   "menu": {
-    "eyebrow": "I Preferiti del Menu",
-    "title": "Assapora il momento",
+    "eyebrow": "I preferiti del menu",
+    "title": "Il gusto di Incontro.",
     "cta": "Scopri il menu",
-    "note": "Il menu cambia con le stagioni e in base alla disponibilità del mercato.",
+    "note": "Una selezione dei piatti più amati dai nostri ospiti.",
     "items": {
       "01": {
-        "name": "Tartare di Fassona",
-        "description": "Tartare di manzo Fassona piemontese con tartufo, Grana e perle di aceto balsamico.",
-        "price": "~€22"
+        "name": "Tartare di carne",
+        "description": "Tartare di carne con fonduta di gorgonzola e bottarga di uovo.",
+        "price": "€24"
       },
       "02": {
-        "name": "Fagottini Cernia e Gamberi",
-        "description": "Fagottini fatti a mano ripieni di cernia e gamberi, serviti con la loro bisque.",
-        "price": "~€20"
+        "name": "Risotto “Pila Vecia”",
+        "description": "Risotto con limone, rosmarino e crudo di capasanta.",
+        "price": "€23"
       },
       "03": {
-        "name": "Spaghetti al Tonno Fresco e Bottarga",
-        "description": "Spaghetti Felicetti con aglio, olio, peperoncino, pomodorini in acqua di mare, tonno fresco e bottarga di tonno.",
-        "price": "~€18"
+        "name": "Mezzelune fatte in casa",
+        "description": "Mezzelune fatte in casa ai gamberi, aglio, olio e peperoncino.",
+        "price": "€23"
       },
       "04": {
-        "name": "Tagliata di Manzo",
-        "description": "Tagliata di manzo con rucola, Grana e patate al rosmarino.",
-        "price": "~€26"
+        "name": "Pizza Lei",
+        "description": "Fior di latte, acciughe del Cantabrico, burrata, pomodori infornati, peperoni grigliati, capperi, olio all'aglio e origano.",
+        "price": "€23"
       },
       "05": {
-        "name": "La Freschezza di Limone",
-        "description": "Il dessert al limone della casa, ispirato alla freschezza di Limone sul Garda.",
-        "price": "~€9"
+        "name": "Tiramisù fatto in casa",
+        "description": "Il classico tiramisù italiano, preparato in casa.",
+        "price": "€10"
       }
     }
   },
