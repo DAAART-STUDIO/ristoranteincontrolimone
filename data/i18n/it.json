@@ -81,120 +81,122 @@
 
   "moments": {
     "eyebrow": "Momenti dei nostri ospiti",
-    "title": "Ricordi vissuti ad Al Buongusto",
-    "description": "Una cena, un brindisi, un sorriso, un selfie — i momenti che i nostri ospiti portano con sé.",
+    "title": "Ricordi creati da Incontro",
+    "description": "Un pranzo in famiglia, un brindisi con gli amici, una cena al tramonto o un selfie sul lago — momenti che i nostri ospiti scelgono di ricordare.",
+
     "cards": {
       "01": {
-        "label": "La prima sera a Limone",
-        "meta": "Ad Al Buongusto"
+        "label": "Una giornata insieme",
+        "meta": "Da Incontro"
       },
       "02": {
-        "label": "Una tavola da ricordare",
-        "meta": "Ora di cena"
+        "label": "Pranzo in famiglia",
+        "meta": "Una tavola per tutti"
       },
       "03": {
-        "label": "Un brindisi da Limone",
-        "meta": "A tavola con gli amici"
+        "label": "Un brindisi sul lago",
+        "meta": "Amici a tavola"
       },
       "04": {
         "label": "Un assaggio d'Italia",
-        "meta": "Dalla tavola"
+        "meta": "Cucina italiana"
       },
       "05": {
         "label": "Solo noi due",
-        "meta": "Una sera ad Al Buongusto"
+        "meta": "Una serata da Incontro"
       },
       "06": {
-        "label": "Un altro brindisi",
-        "meta": "Con gli amici"
+        "label": "Un momento da ricordare",
+        "meta": "Insieme a tavola"
       },
       "07": {
-        "label": "Una notte a Limone",
-        "meta": "Dopo cena"
+        "label": "Una sera a Limone",
+        "meta": "Cena da Incontro"
       },
       "08": {
         "label": "Un ricordo per due",
-        "meta": "Al Buongusto"
+        "meta": "Lago di Garda"
       },
       "09": {
-        "label": "Noi siamo stati qui",
+        "label": "Siamo stati qui",
         "meta": "Limone sul Garda"
       }
     },
+
     "note": "Conserva il momento.",
     "footer": "Ogni tavola ha una storia. Ogni visita lascia un ricordo."
   },
   
   "cuisine": {
     "eyebrow": "La Cucina",
-    "title": "La cucina italiana, plasmata dal Lago di Garda",
-    "description": "Da Hostaria Al Buongusto la cucina italiana incontra i sapori del Lago di Garda e del Mediterraneo. Il menu unisce pesce di lago e frutti di mare, pasta fatta a mano, carni selezionate e ingredienti stagionali. Dal pesce d'acqua dolce alla pasta ripiena, dalla Fassona piemontese ai delicati dessert, ogni piatto è interpretato con un tocco contemporaneo, mantenendo intatto il carattere della cucina italiana. Una tavola dove prendersi il proprio tempo, condividere una bottiglia di vino e scoprire qualcosa di nuovo a ogni portata.",
+    "title": "La cucina italiana con il gusto del Lago di Garda",
+    "description": "Da Ristorante Pizza Incontro, la cucina italiana incontra i sapori del Lago di Garda. Il menu propone pesce di lago e di mare, pasta fatta in casa, piatti di carne e autentica pizza italiana. Dal coregone del Garda al risotto con capesante, dalle mezzelune fatte in casa alla tartare di carne e alla Pizza Incontro, ogni piatto è preparato con cura e attenzione ai dettagli. Una carta dei vini selezionata completa l'esperienza, tra grandi classici italiani ed etichette prestigiose.",
     "panels": {
       "lake": {
         "title": "Lago & Mare",
-        "text": "Pesce di lago, frutti di mare e sapori freschi del Lago di Garda."
+        "text": "Pesce del Garda, frutti di mare, risotti e sapori mediterranei."
       },
       "mountain": {
-        "title": "Pasta & Ravioli",
-        "text": "Pasta fatta a mano, fagottini ripieni e condimenti ispirati alla cucina italiana."
+        "title": "Pasta & Risotti",
+        "text": "Pasta fatta in casa, mezzelune, tortelli e risotti dai sapori equilibrati."
       },
       "mediterranean": {
-        "title": "Carne & Griglia",
-        "text": "Tartare di Fassona, tagliate, bistecche e carni preparate con cura."
+        "title": "Carne & Classici",
+        "text": "Tartare di carne, vitello, costata e grandi classici italiani reinterpretati con cura."
       },
       "cellar": {
-        "title": "Vino & Dessert",
-        "text": "Vini selezionati, tiramisù e delicati dessert per concludere il percorso."
+        "title": "Pizza, Vino & Dessert",
+        "text": "Pizze d'autore, vini italiani selezionati e dessert come 100% Limone e tiramisù fatto in casa."
       }
     },
     "dishes": {
       "tunatartare": {
-        "name": "Tartare di Tonno",
-        "description": "Tonno crudo con peperone piquillo, pepe Timut, lime e cremoso di mozzarella."
+        "name": "Tartare di tonno",
+        "description": "Tartare di tonno con mousse di caprino, salsa al mango e foglia di cappero."
       },
       "lagoAffumicato": {
-        "name": "Salmerino Affumicato",
-        "description": "Salmerino del Garda affumicato con mandarino."
+        "name": "Filetto di coregone del Garda",
+        "description": "Filetto di coregone del Garda con crema di topinambur, asparagi e caviale di aringa."
       },
       "saporeDiLago": {
-        "name": "Spaghetti al Ragù di Lago",
-        "description": "Spaghetti alla chitarra con ragù di lago, salsa all'aglio dolce e basilico."
+        "name": "Risotto riserva “Pila Vecia”",
+        "description": "Risotto con limone, rosmarino e crudo di capasanta."
       },
       "ilNostroMare": {
-        "name": "Fagottini Cernia e Gamberi",
-        "description": "Fagottini fatti a mano ripieni di cernia e gamberi, serviti con la loro bisque."
+        "name": "Mezzelune fatte in casa",
+        "description": "Mezzelune fatte in casa ai gamberi, aglio, olio e peperoncino."
       },
       "cozzePatateBaccala": {
-        "name": "Spaghetti al Tonno e Bottarga",
-        "description": "Spaghetti con aglio, olio, peperoncino, tonno fresco, pomodorini e bottarga di tonno."
+        "name": "Zuppa di pesce alla mediterranea",
+        "description": "Zuppa di pesce alla mediterranea preparata con pesce e frutti di mare."
       },
       "ilPolpoENero": {
-        "name": "Involtini di Pesce",
-        "description": "Involtini di pesce con una finitura croccante e sapori mediterranei."
+        "name": "Cappuccino di polpo alla Luciana",
+        "description": "Polpo alla Luciana con patate e olive."
       },
       "duettoTrentino": {
-        "name": "Tartare di Fassona",
-        "description": "Tartare di manzo Fassona piemontese con tartufo, Grana e perle di balsamico."
+        "name": "Tartare di carne",
+        "description": "Tartare di carne con fonduta di Gorgonzola e bottarga di uovo."
       },
       "terraDEstate": {
-        "name": "Tagliata di Manzo",
-        "description": "Tagliata di manzo con rucola, Grana e patate al rosmarino."
+        "name": "Costata di manzo",
+        "description": "Costata di manzo servita con i suoi contorni."
       },
       "blackAngus": {
-        "name": "Tomahawk di Suino",
-        "description": "Tomahawk di suino da 300 g in crosta di panko, con insalata di patate, cipolla di Tropea e yogurt alpino."
+        "name": "Girello di vitello arrosto",
+        "description": "Girello di vitello arrosto con salsa tonnata, capperi e pomodorini confit."
       },
       "reginaMargherita": {
-        "name": "Tagliatelle ai Quattro Pomodori",
-        "description": "Tagliatelle ai quattro pomodori con stracciatella di burrata e pesto di basilico."
+        "name": "Pizza Incontro",
+        "description": "Fior di latte, tonno Tataki, pomodori confit, cipolle di Tropea, capperi e olive."
       },
       "tonnetto": {
-        "name": "Trota e Zucchine",
-        "description": "Darna di trota con zucchine alla scapece."
+        "name": "Pizza Lei",
+        "description": "Fior di latte, acciughe del Cantabrico, burrata, pomodori infornati, peperoni grigliati, capperi, olio all'aglio e origano."
       },
       "diavola": {
-        "name": "La Freschezza di Limone",
-        "description": "Un delicato dessert al limone, ispirato ai sapori e alla freschezza di Limone sul Garda."
+        "name": "100% Limone",
+        "description": "Un dessert al limone dedicato ai sapori e alla freschezza di Limone sul Garda."
       }
     }
   },

@@ -81,41 +81,41 @@
 
   "moments": {
     "eyebrow": "Momente unserer Gäste",
-    "title": "Erinnerungen im Al Buongusto",
-    "description": "Ein Abendessen, ein Toast, ein Lächeln, ein Selfie – Momente, die unsere Gäste mit nach Hause nehmen.",
+    "title": "Erinnerungen bei Incontro",
+    "description": "Ein Mittagessen mit der Familie, ein Anstoßen mit Freunden, ein Abendessen bei Sonnenuntergang oder ein Selfie am See – Momente, die unsere Gäste gerne mit nach Hause nehmen.",
 
     "cards": {
       "01": {
-        "label": "Der erste Abend in Limone",
-        "meta": "Im Al Buongusto"
+        "label": "Ein Tag gemeinsam",
+        "meta": "Bei Incontro"
       },
       "02": {
-        "label": "Ein Tisch zum Erinnern",
-        "meta": "Zeit zum Abendessen"
+        "label": "Mittagessen mit der Familie",
+        "meta": "Ein Tisch für alle"
       },
       "03": {
-        "label": "Ein Toast aus Limone",
-        "meta": "Mit Freunden am Tisch"
+        "label": "Anstoßen am See",
+        "meta": "Freunde am Tisch"
       },
       "04": {
-        "label": "Ein kleiner Geschmack Italiens",
-        "meta": "Von der Tafel"
+        "label": "Ein Geschmack Italiens",
+        "meta": "Italienische Küche"
       },
       "05": {
         "label": "Nur wir zwei",
-        "meta": "Ein Abend im Al Buongusto"
+        "meta": "Ein Abend bei Incontro"
       },
       "06": {
-        "label": "Noch ein Toast",
-        "meta": "Mit Freunden"
+        "label": "Ein Moment zum Erinnern",
+        "meta": "Gemeinsam am Tisch"
       },
       "07": {
-        "label": "Eine Nacht in Limone",
-        "meta": "Nach dem Abendessen"
+        "label": "Ein Abend in Limone",
+        "meta": "Abendessen bei Incontro"
       },
       "08": {
         "label": "Eine Erinnerung zu zweit",
-        "meta": "Al Buongusto"
+        "meta": "Gardasee"
       },
       "09": {
         "label": "Wir waren hier",
@@ -123,80 +123,80 @@
       }
     },
 
-    "note": "Halte den Moment fest.",
+    "note": "Den Moment bewahren.",
     "footer": "Jeder Tisch hat eine Geschichte. Jeder Besuch hinterlässt eine Erinnerung."
   },
 
   "cuisine": {
     "eyebrow": "Die Küche",
-    "title": "Italienische Küche, geprägt vom Gardasee",
-    "description": "Bei Hostaria Al Buongusto trifft italienische Küche auf die Aromen des Gardasees und des Mittelmeers. Die Speisekarte verbindet Seefisch und Meeresfrüchte, hausgemachte Pasta, sorgfältig ausgewähltes Fleisch und saisonale Zutaten. Von Süßwasserfisch und gefüllter Pasta bis hin zu piemontesischem Fassona-Rind und feinen Desserts wird jedes Gericht mit einer zeitgemäßen Note interpretiert, ohne den Charakter der italienischen Küche zu verlieren. Eine Tafel, an der man sich Zeit nimmt, eine Flasche Wein teilt und mit jedem Gang etwas Neues entdeckt.",
+    "title": "Italienische Küche mit dem Geschmack des Gardasees",
+    "description": "Im Ristorante Pizza Incontro verbindet sich italienische Küche mit den Aromen des Gardasees. Die Speisekarte vereint Fisch aus dem See und dem Meer, hausgemachte Pasta, sorgfältig zubereitete Fleischgerichte und authentische italienische Pizza. Vom Gardasee-Felchen und Risotto mit Jakobsmuscheln über hausgemachte Mezzelune bis hin zu Rindertatar und der Pizza Incontro wird jedes Gericht mit Liebe zum Detail zubereitet. Eine sorgfältig ausgewählte Weinkarte mit italienischen Klassikern und besonderen Etiketten rundet das Erlebnis ab.",
     "panels": {
       "lake": {
         "title": "See & Meer",
-        "text": "Seefisch, Meeresfrüchte und die frischen Aromen des Gardasees."
+        "text": "Fisch aus dem Gardasee, Meeresfrüchte, Risotto und mediterrane Aromen."
       },
       "mountain": {
-        "title": "Pasta & Ravioli",
-        "text": "Hausgemachte Pasta, gefüllte Fagottini und Saucen mit italienischer Inspiration."
+        "title": "Pasta & Risotto",
+        "text": "Hausgemachte Pasta, Mezzelune, Tortelli und Risotto mit ausgewogenen Aromen."
       },
       "mediterranean": {
-        "title": "Fleisch & Grill",
-        "text": "Fassona-Tatar, Tagliata, Steaks und sorgfältig zubereitete Fleischgerichte."
+        "title": "Fleisch & Klassiker",
+        "text": "Rindertatar, Kalbfleisch, Steak und italienische Klassiker mit moderner Note."
       },
       "cellar": {
-        "title": "Wein & Dessert",
-        "text": "Ausgewählte Weine, Tiramisù und feine Desserts zum Abschluss."
+        "title": "Pizza, Wein & Dessert",
+        "text": "Signature-Pizzen, ausgewählte italienische Weine und Desserts wie 100% Limone und hausgemachtes Tiramisù."
       }
     },
     "dishes": {
       "tunatartare": {
-        "name": "Thunfisch-Tatar",
-        "description": "Roher Thunfisch mit Piquillo-Paprika, Timut-Pfeffer, Limette und cremiger Mozzarella."
+        "name": "Thunfischtatar",
+        "description": "Thunfischtatar mit Ziegenkäsemousse, Mangosauce und Kapernblatt."
       },
       "lagoAffumicato": {
-        "name": "Geräucherter Saibling",
-        "description": "Geräucherter Gardasee-Saibling mit Mandarine."
+        "name": "Gardasee-Felchen",
+        "description": "Filet vom Gardasee-Felchen mit Topinamburcreme, Spargel und Heringsrogen."
       },
       "saporeDiLago": {
-        "name": "Spaghetti mit Seefisch-Ragout",
-        "description": "Spaghetti alla chitarra mit Seefisch-Ragout, milder Knoblauchsauce und Basilikum."
+        "name": "Risotto „Pila Vecia“",
+        "description": "Risotto mit Zitrone, Rosmarin und roher Jakobsmuschel."
       },
       "ilNostroMare": {
-        "name": "Fagottini mit Zackenbarsch & Garnelen",
-        "description": "Hausgemachte Fagottini mit Zackenbarsch und Garnelen, serviert mit ihrer Bisque."
+        "name": "Hausgemachte Mezzelune",
+        "description": "Hausgemachte Mezzelune mit Garnelen, Knoblauch, Olivenöl und Chili."
       },
       "cozzePatateBaccala": {
-        "name": "Spaghetti mit Thunfisch & Bottarga",
-        "description": "Spaghetti mit Knoblauch, Olivenöl, Chili, frischem Thunfisch, Kirschtomaten und Thunfisch-Bottarga."
+        "name": "Mediterrane Fischsuppe",
+        "description": "Mediterrane Fischsuppe mit ausgewähltem Fisch und Meeresfrüchten."
       },
       "ilPolpoENero": {
-        "name": "Fisch-Involtini",
-        "description": "Fisch-Involtini mit knuspriger Kruste und mediterranen Aromen."
+        "name": "Oktopus alla Luciana",
+        "description": "Oktopus alla Luciana mit Kartoffeln und Oliven."
       },
       "duettoTrentino": {
-        "name": "Fassona-Rindertatar",
-        "description": "Tatar vom piemontesischen Fassona-Rind mit Trüffel, Grana und Balsamico-Perlen."
+        "name": "Rindertatar",
+        "description": "Rindertatar mit Gorgonzola-Fondue und Eierbottarga."
       },
       "terraDEstate": {
-        "name": "Tagliata vom Rind",
-        "description": "Geschnittenes Rindfleisch mit Rucola, Grana und Rosmarinkartoffeln."
+        "name": "Rinderkotelett",
+        "description": "Rinderkotelett mit passenden Beilagen."
       },
       "blackAngus": {
-        "name": "Schweine-Tomahawk",
-        "description": "300 g Schweine-Tomahawk mit knuspriger Panko-Kruste, Kartoffelsalat, Tropea-Zwiebel und Alpenjoghurt."
+        "name": "Gebratenes Kalbfleisch",
+        "description": "Gebratenes Kalbfleisch mit Thunfischsauce, Kapern und konfierten Kirschtomaten."
       },
       "reginaMargherita": {
-        "name": "Tagliatelle mit vier Tomaten",
-        "description": "Tagliatelle mit vier Tomatensorten, Burrata-Stracciatella und Basilikumpesto."
+        "name": "Pizza Incontro",
+        "description": "Fior di latte, Tataki-Thunfisch, konfierte Tomaten, Zwiebeln aus Tropea, Kapern und Oliven."
       },
       "tonnetto": {
-        "name": "Forelle mit Zucchini",
-        "description": "Forelle mit Zucchini alla scapece."
+        "name": "Pizza Lei",
+        "description": "Fior di latte, Sardellen aus Kantabrien, Burrata, gebackene Tomaten, gegrillte Paprika, Kapern, Knoblauchöl und Oregano."
       },
       "diavola": {
-        "name": "Die Frische von Limone",
-        "description": "Ein feines Zitronendessert, inspiriert von den Aromen und der Frische von Limone sul Garda."
+        "name": "100% Limone",
+        "description": "Ein Zitronendessert, inspiriert von den Aromen und der Frische von Limone sul Garda."
       }
     }
   },

@@ -81,41 +81,41 @@
 
   "moments": {
     "eyebrow": "Moments from our guests",
-    "title": "Memories made at Al Buongusto",
-    "description": "A dinner, a toast, a smile, a selfie — the moments our guests take home with them.",
+    "title": "Memories made at Incontro",
+    "description": "A family lunch, a toast with friends, a sunset dinner or a selfie by the lake — moments our guests choose to remember.",
 
     "cards": {
       "01": {
-        "label": "First evening in Limone",
-        "meta": "At Al Buongusto"
+        "label": "A day together",
+        "meta": "At Incontro"
       },
       "02": {
-        "label": "A table to remember",
-        "meta": "Dinner time"
+        "label": "Lunch with the family",
+        "meta": "A table for everyone"
       },
       "03": {
-        "label": "Cheers from Limone",
-        "meta": "A table with friends"
+        "label": "Cheers by the lake",
+        "meta": "Friends at the table"
       },
       "04": {
-        "label": "A little taste of Italy",
-        "meta": "From the table"
+        "label": "A taste of Italy",
+        "meta": "Italian dining"
       },
       "05": {
         "label": "Just the two of us",
-        "meta": "An evening at Al Buongusto"
+        "meta": "An evening at Incontro"
       },
       "06": {
-        "label": "One more toast",
-        "meta": "With friends"
+        "label": "A moment to remember",
+        "meta": "Together at the table"
       },
       "07": {
-        "label": "A night in Limone",
-        "meta": "After dinner"
+        "label": "An evening in Limone",
+        "meta": "Dinner at Incontro"
       },
       "08": {
         "label": "A memory for two",
-        "meta": "Al Buongusto"
+        "meta": "Lake Garda"
       },
       "09": {
         "label": "We were here",
@@ -129,74 +129,74 @@
 
   "cuisine": {
     "eyebrow": "The Cuisine",
-    "title": "Italian cuisine, shaped by Lake Garda",
-    "description": "At Hostaria Al Buongusto, Italian cooking meets the flavours of Lake Garda and the Mediterranean. The menu brings together lake fish and seafood, handmade pasta, carefully prepared meat dishes and seasonal ingredients. From freshwater fish and filled pasta to Fassona beef and delicate desserts, each plate is presented with a contemporary touch while keeping the character of Italian cuisine. A table made for taking your time, sharing a bottle of wine and discovering something new with every course.",
+    "title": "Italian cuisine with a taste of Lake Garda",
+    "description": "At Ristorante Pizza Incontro, Italian cuisine meets the flavours of Lake Garda. The menu brings together fresh fish and seafood, homemade pasta, carefully prepared meat dishes and authentic Italian pizza. From Garda char and risotto with scallops to handmade mezzelune, beef tartare and the signature Pizza Incontro, each dish is prepared with attention to detail. A carefully selected wine list completes the experience, from Italian classics to prestigious labels.",
     "panels": {
       "lake": {
         "title": "Lake & Seafood",
-        "text": "Freshwater fish, seafood and the fresh flavours of Lake Garda."
+        "text": "Garda fish, seafood, risotto and Mediterranean flavours."
       },
       "mountain": {
-        "title": "Pasta & Ravioli",
-        "text": "Handmade pasta, filled fagottini and sauces inspired by Italian cuisine."
+        "title": "Pasta & Risotto",
+        "text": "Homemade pasta, mezzelune, tortelli and risotto with carefully balanced flavours."
       },
       "mediterranean": {
-        "title": "Meat & Grill",
-        "text": "Fassona tartare, tagliata, steaks and carefully prepared meat dishes."
+        "title": "Meat & Classics",
+        "text": "Beef tartare, veal, steak and traditional Italian dishes with a contemporary touch."
       },
       "cellar": {
-        "title": "Wine & Dessert",
-        "text": "Selected wines, tiramisù and delicate desserts to complete the experience."
+        "title": "Pizza, Wine & Dessert",
+        "text": "Signature pizzas, selected Italian wines and desserts including 100% Limone and homemade tiramisù."
       }
     },
     "dishes": {
       "tunatartare": {
         "name": "Tuna Tartare",
-        "description": "Raw tuna with piquillo pepper, Timut pepper, lime and creamy mozzarella."
+        "description": "Tuna tartare with goat cheese mousse, mango sauce and caper leaf."
       },
       "lagoAffumicato": {
-        "name": "Smoked Salmerino",
-        "description": "Smoked Garda char with mandarin."
+        "name": "Garda Char",
+        "description": "Garda char fillet with Jerusalem artichoke cream, asparagus and herring roe."
       },
       "saporeDiLago": {
-        "name": "Spaghetti with Lake Ragout",
-        "description": "Spaghetti alla chitarra with lake fish ragout, sweet garlic and basil sauce."
+        "name": "Risotto “Pila Vecia”",
+        "description": "Risotto with lemon, rosemary and raw scallop."
       },
       "ilNostroMare": {
-        "name": "Fagottini with Grouper & Prawns",
-        "description": "Handmade fagottini filled with grouper and prawns, served with their bisque."
+        "name": "Homemade Mezzelune",
+        "description": "Homemade mezzelune filled with prawns, garlic, olive oil and chilli."
       },
       "cozzePatateBaccala": {
-        "name": "Tuna Spaghetti with Bottarga",
-        "description": "Spaghetti with garlic, olive oil, chilli, fresh tuna, tomatoes and tuna bottarga."
+        "name": "Mediterranean Fish Soup",
+        "description": "A Mediterranean-style fish soup prepared with a selection of fish and seafood."
       },
       "ilPolpoENero": {
-        "name": "Fish Involtini",
-        "description": "Fish involtini with a crisp finish, served with Mediterranean flavours."
+        "name": "Octopus Cappuccino alla Luciana",
+        "description": "Octopus prepared alla Luciana with potatoes and olives."
       },
       "duettoTrentino": {
-        "name": "Fassona Beef Tartare",
-        "description": "Piedmontese Fassona beef tartare with truffle, Grana and balsamic pearls."
+        "name": "Beef Tartare",
+        "description": "Beef tartare with Gorgonzola fondue and egg bottarga."
       },
       "terraDEstate": {
-        "name": "Tagliata di Manzo",
-        "description": "Sliced beef with rocket, Grana and rosemary potatoes."
+        "name": "Beef Rib Steak",
+        "description": "Beef rib steak served with its traditional side dishes."
       },
       "blackAngus": {
-        "name": "Pork Tomahawk",
-        "description": "300 g pork tomahawk with a crispy panko crust, potato salad, Tropea onion and alpine yogurt."
+        "name": "Roasted Veal",
+        "description": "Roasted veal with tuna sauce, capers and confit cherry tomatoes."
       },
       "reginaMargherita": {
-        "name": "Tagliatelle with Four Tomatoes",
-        "description": "Tagliatelle with four tomatoes, burrata stracciatella and basil pesto."
+        "name": "Pizza Incontro",
+        "description": "Fior di latte, tuna tataki, confit tomatoes, Tropea onion, capers and olives."
       },
       "tonnetto": {
-        "name": "Trout with Zucchini",
-        "description": "Trout with zucchini prepared alla scapece."
+        "name": "Pizza Lei",
+        "description": "Fior di latte, Cantabrian anchovies, burrata, baked tomatoes, grilled peppers, capers, garlic oil and oregano."
       },
       "diavola": {
-        "name": "The Freshness of Lemon",
-        "description": "A delicate lemon dessert inspired by the flavours and freshness of Limone sul Garda."
+        "name": "100% Limone",
+        "description": "A signature lemon dessert celebrating the flavours of Limone sul Garda."
       }
     }
   },
