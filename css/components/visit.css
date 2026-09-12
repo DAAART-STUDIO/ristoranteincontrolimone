@@ -28,7 +28,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: bottom;
   }
   
   /* =========================================================
@@ -201,8 +201,8 @@
      * Позиція самого об'єкта відносно всієї карти.
      * Це НЕ позиція тексту.
      */
-    top: 0%;
-    left: 61%;
+    top: 30%;
+    left: 75%;
     width: min(360px, 28vw);
     pointer-events: none;
   }

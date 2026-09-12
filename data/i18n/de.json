@@ -255,12 +255,12 @@
   },
 
   "visit": {
-    "eyebrow": "Besuchen Sie Al Buongusto",
+    "eyebrow": "Besuchen Sie Ristorante Pizza Incontro",
     "title": "Kommen Sie nach Limone",
-    "description": "Sie finden uns im Herzen von Limone sul Garda – machen Sie Ihren Besuch zu einem Teil des Gardasee-Erlebnisses.",
+    "description": "Sie finden uns in Limone sul Garda – machen Sie Ihren Besuch zu einem Teil des Gardasee-Erlebnisses.",
     "locationLabel": "Wo wir sind",
-    "address": "Via Fontana 2 · 25010 Limone sul Garda BS · Italien",
-    "directions": "Route anzeigen"
+    "address": "Via Caldogno, 1 · 25010 Limone sul Garda BS · Italien",
+    "directions": "Route planen"
   },
 
   "footer": {
